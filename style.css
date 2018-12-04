@@ -9,6 +9,7 @@
     width: 100%;
 }
 
+/*LOGO*/
 .logo img {
     height: 100px;
     width: 80px;
@@ -30,6 +31,7 @@
     margin-left: 112px;
 }
 
+/*NAVBAR*/
 .navbar ul {
     list-style: none;
     text-decoration: none;  
@@ -57,4 +59,14 @@
     -moz-transition: .3s all ease-in-out;
     -ms-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
+}
+
+/*CAROUSEL SLIDER*/
+.welcome-slider {
+    background-image: url(img/gandalf.jpg); /*Image borrowed from:https://wall.alphacoders.com/by_sub_category.php?id=167161&name=Lord+of+the+Rings+Wallpapers*/
+    background-size: cover;
+    background-position-y: bottom;
+    height: 80vh;
+    width: 100%;
+    padding-top: 100px;
 }
