@@ -2,3 +2,59 @@
     margin: 0;
     border: 0;
 }
+
+#header {
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+}
+
+.logo img {
+    height: 100px;
+    width: 80px;
+    margin: 20px;
+}
+
+.logo h1 {
+    font-family: 'EB Garamond', serif; 
+    color: white; 
+    margin-top: -110px;
+    margin-left: 110px;
+}
+
+.logo h2 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: lighter;
+    color: white; 
+    margin-top: -2px;
+    margin-left: 112px;
+}
+
+.navbar ul {
+    list-style: none;
+    text-decoration: none;  
+    text-align: right;
+    margin-right: 50px;
+}
+
+.navbar li {
+    padding: 8px 0px;
+    display: inline-block;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+.navbar li a {
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    background-color: #556B2F;
+    transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+}
