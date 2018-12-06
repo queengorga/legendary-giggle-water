@@ -36,7 +36,8 @@
     list-style: none;
     text-decoration: none;  
     text-align: right;
-    margin-right: 50px;
+    margin-top: -45px;
+    margin-right: 20px;
 }
 
 .navbar li {
@@ -63,10 +64,29 @@
 
 /*CAROUSEL SLIDER*/
 .welcome-slider {
-    background-image: url(img/gandalf.jpg); /*Image borrowed from:https://wall.alphacoders.com/by_sub_category.php?id=167161&name=Lord+of+the+Rings+Wallpapers*/
-    background-size: cover;
-    background-position-y: bottom;
     height: 80vh;
-    width: 100%;
-    padding-top: 100px;
+    width: 100%;                      
+}
+
+.mySlides {
+    display: none
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+
+.welcome-slider img {
+    height: 85vh; 
+    width: 105vw;
+    margin-left: -370px;
+    margin-top: -5px;
 }
