@@ -72,20 +72,61 @@
     display: none
 }
 
+.w3-content h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: white;
+    transform: translate(50%, -400%);
+    -webkit-transform: translate(50%, -400%);
+    -moz-transform: translate(50%, -400%);
+    -ms-transform: translate(50%, -400%);
+    -o-transform: translate(50%, -400%);
+}
+
 .w3-left,
 .w3-right,
 .w3-badge {
-    cursor: pointer
+    cursor: pointer;
+    border: 2px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.w3-left {
+    transform: translate(-160%, -1000%);
+    -webkit-transform: translate(-160%, -1000%);
+    -moz-transform: translate(-160%, -1000%);
+    -ms-transform: translate(-160%, -1000%);
+    -o-transform: translate(-160%, -1000%);
+}
+
+.w3-right {
+    transform: translate(160%, -1025%);
+    -webkit-transform: translate(160%, -1025%);
+    -moz-transform: translate(160%, -1025%);
+    -ms-transform: translate(160%, -1025%);
+    -o-transform: translate(160%, -1025%);
+}
+
+
+.w3-left:hover,
+.w3-right:hover,.w3-badge:hover {
+    border-color: olive;
 }
 
 .w3-badge {
     height: 13px;
     width: 13px;
-    padding: 0
+    padding: 0px;
 }
 
 .welcome-slider img {
-    height: 85vh; 
+    height: 80vh; 
     width: 105vw;
     margin-left: -370px;
     margin-top: -5px;
