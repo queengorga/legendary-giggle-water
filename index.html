@@ -20,7 +20,7 @@
     
         <nav class="navbar">
             <ul>
-                <li class="active"><a class="nav-link" href="#welcome">HOME</a></li>
+                <li><a class="nav-link" href="#welcome">HOME</a></li>
                 <li><a class="nav-link" href="#about">ABOUT</a></li>
                 <li><a class="nav-link" href="#writing">WRITING</a></li>
                 <li><a class="nav-link" href="#further-interest">FURTHER INTEREST</a></li>
@@ -30,22 +30,56 @@
         </nav>
 
     <section class="welcome-slider">
-        
-        <div class="w3-content w3-display-container" style="max-width:800px">
-            <img class="mySlides" src="img/gandalf.jpg">
-            <img class="mySlides" src="img/smaug.jpg">
-            <img class="mySlides" src="img/wraith.jpg">
-            <img class="mySlides" src="img/thering.jpg">
-            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:175%">
-                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-            </div>
-        </div>
-    </section>
+    
+        <div class="slideshow-container">
+                    <div class="slides fade">
+                        <img src="img/gandalf.jpg" alt="">
+                        <div class="text-block">
+                            <h1>Battle with Balrog</h1>
+                            <p>Today, the view of Saint Peter’s doesn’t leave <br> much to the imagination but it’s still an incredible <br> sight that
+                                leaves a profound sense of admiration.</p>
+                            <button><a href="placestogo.html#basilica">Read More</a></button>
+                        </div>
+                    </div>
+
+                    <div class="slides fade">
+                        <img src="img/thering.jpg" alt="">
+                        <div class="text-block">
+                            <h1>One Ring</h1>
+                            <p>Just beyond a massive bronze door that, like magic,<br> takes you out of Italy and into the smallest <br> country in the world:
+                            the Vatican.</p>
+                            <button><a href="placestogo.html#vatican-museums">Read More</a></button>
+                        </div>
+                    </div>
+
+                    <div class="slides fade">
+                        <img src="img/smaug.jpg" alt="">
+                        <div class="text-block">
+                            <h1>The Hobbit</h1>
+                            <p>The best preserved, with the biggest brick dome <br> in the history of architecture and is considered <br> the forerunner of all modern places of worship.</p>
+                            <button><a href="thingstodo.html#rome-history">Read More</a></button>
+                        </div>
+                    </div>
+
+                    <div class="slides fade">
+                        <img src="img/wraith.jpg" alt="">
+                        <div class="text-block">
+                            <h1>The Wraith King</h1>
+                            <p>This triumphant example of Baroque art with <br> its soft, natural lines and fantasy creatures <br> embodies movement as the soul
+                            of the world.</p>
+                            <button><a href="thingstodo.html#trevi">Read More</a></button>
+                        </div>
+                    </div>
+
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+        </section>
     
     <script src="script.js"></script>
 </body>
