@@ -5,14 +5,14 @@
 
 #header {
     background-color: black;
-    height: 20vh;
+    height: 18vh;
     width: 100%;
 }
 
 /*LOGO*/
 .logo img {
-    height: 100px;
-    width: 80px;
+    height: 70px;
+    width: 50px;
     margin: 20px;
 }
 
@@ -20,8 +20,8 @@
     font-family: 'EB Garamond', serif; 
     font-size: 35px;
     color: white; 
-    margin-top: -110px;
-    margin-left: 110px;
+    margin-top: -95px;
+    margin-left: 80px;
 }
 
 .logo h2 {
@@ -31,7 +31,7 @@
     color: white;
     padding-bottom: 40px; 
     margin-top: -18px;
-    margin-left: 112px;
+    margin-left: 85px;
 }
 
 /*NAVBAR*/
@@ -39,8 +39,7 @@
     list-style: none;
     text-decoration: none;  
     text-align: right;
-    margin-top: -55px;
-    margin-right: 20px;
+    margin: -65px 20px 2px auto;
 }
 
 .navbar li {
@@ -67,13 +66,13 @@
 
 /*CAROUSEL SLIDER*/
 .welcome-slider {
-    height: 80vh;
+    height: 75vh;
     width: 100vw;
 }
 
 .welcome-slider img {
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
 }
 
 .welcome-slider .container {
