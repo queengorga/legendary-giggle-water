@@ -5,7 +5,7 @@
 
 #header {
     background-color: black;
-    height: 18vh;
+    height: 16.5vh;
     width: 100%;
 }
 
@@ -82,12 +82,12 @@
 .text-block {
     position: absolute;
     background-color: #556B2F;
-    height: 35vh;
+    height: 34vh;
     width: 34vw;
     opacity: 0.85;
     color: white;
     padding: 35px;
-    margin-top: -253px;
+    margin-top: -275px;
     margin-left: 1000px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -100,6 +100,7 @@
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     font-weight: bolder;
+    margin-top: -4px;
 }
 
 .text-block p {
