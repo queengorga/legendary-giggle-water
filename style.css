@@ -82,8 +82,8 @@
 .text-block {
     position: absolute;
     background-color: #556B2F;
-    height: 23vh;
-    width: 25vw;
+    height: 35vh;
+    width: 30vw;
     opacity: 0.85;
     color: white;
     padding: 35px;
@@ -247,26 +247,73 @@
 /* Footer Section */
 
 .footer {
-    height: 50vh;
+    height: 75vh;
     width: 100%;
     margin-top: 70px;
     background-color: black;
+}
 
+.top {
+    background-color: #556B2F;
+    height:4.5vh;
+}
+
+.top h1 {
+    font-family: 'EB Garamond', serif; 
+    font-size: 18px;
+    text-decoration: none;
+    color: white; 
+    text-align: center;
+    padding: 4px 0 0 32px;
 }
 
 .top a {
-    font-family: 'EB Garamond', serif; 
-    font-size: 20px;
-    color: white; 
-    padding-top: 50px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .logo-footer img {
-    height: 70px;
-    width: 45px;
+    height: 115px;
+    width: 80px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    transform: translate(920%,-50%);
+    -webkit-transform: translate(920%,-50%);
+    -moz-transform: translate(920%,-50%);
+    -ms-transform: translate(920%,-50%);
+    -o-transform: translate(920%,-50%);
+}
+
+.footer-links ul {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+.footer-links li {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px; 
+    color: white; 
+    list-style: none;
+    padding: 5px;
+}
+
+.brand {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.brand h4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.brand h6 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 12px;
+    color: white;
 }
