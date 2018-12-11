@@ -247,7 +247,7 @@
 /* Footer Section */
 
 .footer {
-    height: 65vh;
+    height: 75.5vh;
     width: 100%;
     margin-top: 70px;
     background-image: url(img/middleearth.jpg);
@@ -273,24 +273,28 @@
     color: inherit;
 }
 
-.logo-footer, .footer-links, .social-footer{
+.logo-footer, .footer-links, .social-footer, .brand{
     background-color: black;
     opacity: .55;
+}
+
+.logo-footer {
+    height: 20vh;
 }
 
 .logo-footer img {
     height: 115px;
     width: 80px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    transform: translate(920%,-50%);
-    -webkit-transform: translate(920%,-50%);
-    -moz-transform: translate(920%,-50%);
-    -ms-transform: translate(920%,-50%);
-    -o-transform: translate(920%,-50%);
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    transform: translate(920%,10%);
+    -webkit-transform: translate(920%,10%);
+    -moz-transform: translate(920%,10%);
+    -ms-transform: translate(920%,10%);
+    -o-transform: translate(920%,10%);
 }
 
 .footer-links ul {
@@ -307,9 +311,23 @@
     padding: 5px;
 }
 
+.social-footer {
+    text-align: center;
+}
+
+.social-footer li {
+    display: inline;
+}
+
+.social-footer img {
+    height: 50px;
+    width: 50px;
+}
+
 .brand {
     text-align: center;
-    margin-top: -50px;
+    margin-top: -10px;
+    padding-bottom: 20px;
 }
 
 .brand h4 {
