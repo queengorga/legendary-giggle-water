@@ -286,10 +286,10 @@
     height: 115px;
     width: 80px;
     border-radius: 50%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     transform: translate(920%,10%);
     -webkit-transform: translate(920%,10%);
     -moz-transform: translate(920%,10%);
@@ -311,6 +311,12 @@
     padding: 5px;
 }
 
+.footer-links a, .footer-links:visited {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer;
+}
+
 .social-footer {
     text-align: center;
 }
@@ -322,6 +328,12 @@
 .social-footer img {
     height: 50px;
     width: 50px;
+}
+
+.social-footer a, .social-footer a:hover, .social-footer:visited {
+    text-decoration: none; 
+    color: inherit;
+    cursor: pointer; 
 }
 
 .brand {
