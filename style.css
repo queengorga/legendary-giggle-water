@@ -5,7 +5,7 @@
 
 #header {
     background-color: black;
-    height: 16.5vh;
+    height: 16vh;
     width: 100%;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .navbar li {
-    padding: 6px 0px;
+    padding: 5px 0px;
     display: inline-block;
     font-family: 'EB Garamond', serif;
     font-size: 20px;
