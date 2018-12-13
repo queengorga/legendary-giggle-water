@@ -253,6 +253,7 @@
     margin-top: 70px;
     background-image: url(img/middleearth.jpg);
     background-attachment: fixed;
+    background-size: cover; 
 }
 
 .top {
