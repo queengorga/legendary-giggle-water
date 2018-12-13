@@ -149,16 +149,17 @@
     margin: 5px 2px;
     background-color: white;
     border: 1px solid #556B2F;
-    transform:rotate(-45deg) translate(0%, -500%);
     display: inline-block;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
+    border-radius: 20%;
+    transform:rotate(-45deg) translate(0%, -500%);
     -webkit-transform:rotate(-45deg) translate(0%, -500%);
     -moz-transform:rotate(-45deg) translate(0%, -500%);
     -ms-transform:rotate(-45deg) translate(0%, -500%);
     -o-transform:rotate(-45deg) translate(0%, -500%);
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
 }
 
 .active,
