@@ -256,7 +256,7 @@
 
 .banner {
     padding-top: 10px;
-    margin-left: 400px;
+    margin-left: 375px;
     display: inline-flex;
 }
 
@@ -283,6 +283,16 @@
     width: 100px;
     height: 30px;
     color: #556B2F;
+}
+
+.banner input[type="submit"]:hover {
+    background-color: #556B2F;
+    color: ivory;
+    transition:.5s ease-in-out;
+    -webkit-transition:.5s ease-in-out;
+    -moz-transition:.5s ease-in-out;
+    -ms-transition:.5s ease-in-out;
+    -o-transition:.5s ease-in-out;
 }
 
 form {
