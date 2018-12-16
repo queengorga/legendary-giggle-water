@@ -151,11 +151,11 @@
     border: 1px solid #556B2F;
     display: inline-block;
     border-radius: 20%;
-    transform:rotate(-45deg) translate(0%, -500%);
-    -webkit-transform:rotate(-45deg) translate(0%, -500%);
-    -moz-transform:rotate(-45deg) translate(0%, -500%);
-    -ms-transform:rotate(-45deg) translate(0%, -500%);
-    -o-transform:rotate(-45deg) translate(0%, -500%);
+    transform:rotate(-45deg) translate(275%, -225%);
+    -webkit-transform:rotate(-45deg) translate(275%, -225%);
+    -moz-transform:rotate(-45deg) translate(275%, -225%);
+    -ms-transform:rotate(-45deg) translate(275%, -225%);
+    -o-transform:rotate(-45deg) translate(275%, -225%);
     -webkit-border-radius: 20%;
     -moz-border-radius: 20%;
     -ms-border-radius: 20%;
