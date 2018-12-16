@@ -247,17 +247,16 @@
 
 /* Newsletter Section */
 .newsletter {
-    height: 15vh;
+    height: 12vh;
     width: 100%;
-    background-color: ivory;
+    background-color: beige;
     margin-top: 70px;
     margin-bottom: -70px;
 }
 
 .banner {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 350px;
+    padding-top: 10px;
+    margin-left: 400px;
     display: inline-flex;
 }
 
@@ -265,7 +264,6 @@
     font-family: 'EB Garamond', serif;
     font-weight: bold; 
     font-size: 30px;
-    padding-bottom: 20px;
 }
 
 .banner input[type="text"] {
@@ -281,6 +279,9 @@
     background-color: transparent; 
     border: 2px solid #556B2F;
     font-family: 'Libre Baskerville', sans-serif;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
     color: #556B2F;
 }
 
