@@ -256,7 +256,7 @@
 
 .banner {
     padding-top: 10px;
-    margin-left: 375px;
+    margin-left: 325px;
     display: inline-flex;
 }
 
@@ -266,8 +266,8 @@
     font-size: 30px;
 }
 
-.banner input[type="text"] {
-    width: 250px;
+.banner input[type="email"] {
+    width: 350px;
     height: 30px;
     margin-left: -15px;
     color: #556B2F; 
@@ -283,6 +283,11 @@
     width: 100px;
     height: 30px;
     color: #556B2F;
+}
+
+.banner input[type="email"]::placeholder {
+    padding-left: 5px;
+    color: rgb(129, 158, 78);
 }
 
 .banner input[type="submit"]:hover {
