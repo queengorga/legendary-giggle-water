@@ -334,10 +334,10 @@ form {
     text-align: center;
     margin: 20px;
     transform: translate(80%,10%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: translate(80%,10%);
+    -moz-transform: translate(80%,10%);
+    -ms-transform: translate(80%,10%);
+    -o-transform: translate(80%,10%);
 }
 
 .works-card img {
