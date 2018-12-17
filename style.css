@@ -308,7 +308,7 @@ form {
 /*Works Section*/
 
 .works {
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     background-color: rgb(195, 226, 140);
     margin-top: 70px;
@@ -334,15 +334,21 @@ form {
     text-align: center;
     margin: 20px;
     transform: translate(80%,10%);
-    -webkit-transform: translate(80%,10%);
-    -moz-transform: translate(80%,10%);
-    -ms-transform: translate(80%,10%);
-    -o-transform: translate(80%,10%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 
 .works-card img {
     height: 250px;
     width: 200px;
+}
+
+.works-card p {
+    font-family: 'Libre Baskerville', sans-serif;
+    padding-top: 10px;
+    text-align: center; 
 }
 
 .card-label {
