@@ -305,6 +305,46 @@ form {
     margin-top: 22px;
 }
 
+/*Works Section*/
+
+.works {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(195, 226, 140);
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+
+.works-header h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 75px;
+    text-align: center;
+}
+
+.works-container {
+    display: inline-flex;
+}
+
+.works-card {
+    border: transparent;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    transform: translate(80%,10%);
+    -webkit-transform: translate(80%,10%);
+    -moz-transform: translate(80%,10%);
+    -ms-transform: translate(80%,10%);
+    -o-transform: translate(80%,10%);
+}
+
+.works-card img {
+    height: 250px;
+    width: 200px;
+}
+
 /* Footer Section */
 
 .footer {
