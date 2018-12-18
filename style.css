@@ -371,6 +371,54 @@ form {
     opacity: .5;
 }
 
+/*New Section*/
+
+.new {
+    height: 35vh;
+    width: 100%;
+    background-color: ivory;
+    margin-top: 50px;
+}
+
+.new-container {
+    background-color: ivory;
+}
+
+.new-container h1 {
+    font-family: 'EB Garamond', serif; 
+    font-size: 30px; 
+    padding-top: 50px;
+    padding-left: 250px;
+}
+
+.new-container p {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 15px;
+    padding-left: 250px;
+}
+
+.new-container button {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 15px;
+    height: 50px; 
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 250px;
+    background-color: #556B2F; 
+    color: ivory; 
+}
+
+.new-cards img {
+    height: 200px;
+    width: 175px;
+    margin-left: 12px;
+    transform: translate(420%,-80%);
+    -webkit-transform: translate(420%,-80%);
+    -moz-transform: translate(420%,-80%);
+    -ms-transform: translate(420%,-80%);
+    -o-transform: translate(420%,-80%);
+}
+
 /* Footer Section */
 
 .footer {
