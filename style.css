@@ -423,12 +423,12 @@ form {
 .new-cards img {
     height: 200px;
     width: 175px;
-    margin-left: 12px;
-    transform: translate(420%,-80%);
-    -webkit-transform: translate(420%,-80%);
-    -moz-transform: translate(420%,-80%);
-    -ms-transform: translate(420%,-80%);
-    -o-transform: translate(420%,-80%);
+    margin-left: 15px;
+    transform: translate(412%,-80%);
+    -webkit-transform: translate(412%,-80%);
+    -moz-transform: translate(412%,-80%);
+    -ms-transform: translate(412%,-80%);
+    -o-transform: translate(412%,-80%);
 }
 
 .new-cards img:hover {
