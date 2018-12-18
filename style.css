@@ -388,13 +388,13 @@ form {
     font-family: 'EB Garamond', serif; 
     font-size: 30px; 
     padding-top: 50px;
-    padding-left: 250px;
+    padding-left: 225px;
 }
 
 .new-container p {
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 15px;
-    padding-left: 250px;
+    padding-left: 225px;
 }
 
 .new-container button {
@@ -403,9 +403,21 @@ form {
     height: 50px; 
     width: 200px;
     margin-top: 10px;
-    margin-left: 250px;
+    margin-left: 225px;
     background-color: #556B2F; 
     color: ivory; 
+}
+
+.new-container button:hover {
+    border: 2px solid #556B2F;
+    background-color: transparent;
+    color: #556B2F;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
 }
 
 .new-cards img {
@@ -417,6 +429,10 @@ form {
     -moz-transform: translate(420%,-80%);
     -ms-transform: translate(420%,-80%);
     -o-transform: translate(420%,-80%);
+}
+
+.new-cards img:hover {
+    opacity: .75;
 }
 
 /* Footer Section */
