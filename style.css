@@ -270,9 +270,14 @@
     width: 350px;
     height: 30px;
     margin-left: -15px;
-    color: #556B2F; 
-    border: 2px solid #556B2F; 
-    background-color: ivory; 
+    color: #556B2F;
+    border: 2px solid #556B2F;
+    background-color: ivory;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .banner input[type="submit"] {
@@ -283,6 +288,11 @@
     width: 100px;
     height: 30px;
     color: #556B2F;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .banner input[type="email"]::placeholder {
@@ -297,7 +307,7 @@
     -webkit-transition:.5s ease-in-out;
     -moz-transition:.5s ease-in-out;
     -ms-transition:.5s ease-in-out;
-    -o-transition:.5s ease-in-out;
+    -o-transition:.5s ease-in-out;      
 }
 
 form {
@@ -406,6 +416,11 @@ form {
     margin-left: 225px;
     background-color: #556B2F; 
     color: ivory; 
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .new-container button:hover {
