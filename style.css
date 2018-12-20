@@ -435,6 +435,11 @@ form {
     -o-transition: .5s ease-in-out;
 }
 
+.new-container a, .newcontainer a:visited {
+    text-decoration: none; 
+    color: inherit;
+}
+
 .new-cards img {
     height: 200px;
     width: 175px;
