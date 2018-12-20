@@ -281,13 +281,13 @@
 }
 
 .banner input[type="submit"] {
-    background-color: transparent; 
+    background-color: #556B2F;
     border: 2px solid #556B2F;
     font-family: 'Libre Baskerville', sans-serif;
     font-weight: bold;
     width: 100px;
     height: 30px;
-    color: #556B2F;
+    color: ivory;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -301,8 +301,8 @@
 }
 
 .banner input[type="submit"]:hover {
-    background-color: #556B2F;
-    color: ivory;
+    background-color: white;
+    color: #556B2F;
     transition:.5s ease-in-out;
     -webkit-transition:.5s ease-in-out;
     -moz-transition:.5s ease-in-out;
