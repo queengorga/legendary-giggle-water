@@ -455,6 +455,69 @@ form {
     opacity: .75;
 }
 
+/*Home Section*/
+
+.home {
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(195, 226, 140);
+    margin-top: 50px;
+    margin-bottom: -70px; 
+}
+
+.home-container {
+    display: inline-flex;
+    transform:translate(23%,25%);
+    -moz-transform:translate(23%,25%);
+    -ms-transform:translate(23%,25%);
+    -o-transform:translate(23%,25%);
+    -webkit-transform:translate(23%,25%);
+}
+
+.home-container img {
+    height: 250px;
+    width: 185px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.home-block h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    margin-left: 35px;
+    padding-top: 30px;
+}
+
+.home-block p {
+    font-family: 'Libre Baskerville',sans-serif;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.home-block button {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 15px;
+    margin-left: 35px;
+    height: 50px;
+    width: 300px;
+    background-color: #556B2F;
+    color: ivory;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 15px;
+}
+
+.home-block a {
+    text-decoration: none; 
+    color: inherit;
+}
+
 /* Footer Section */
 
 .footer {
