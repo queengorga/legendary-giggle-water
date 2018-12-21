@@ -249,7 +249,7 @@
 .newsletter {
     height: 12vh;
     width: 100%;
-    background-color: beige;
+    background-color: ivory;
     margin-top: 70px;
     margin-bottom: -70px;
 }
@@ -320,7 +320,7 @@ form {
 .works {
     height: 85vh;
     width: 100%;
-    background-color: rgb(195, 226, 140);
+    background-color: rgb(222, 240, 192);
     margin-top: 70px;
     margin-bottom: -70px;
 }
@@ -460,7 +460,7 @@ form {
 .home {
     height: 50vh;
     width: 100%;
-    background-color: rgb(195, 226, 140);
+    background-color: rgb(222, 240, 192);
     margin-top: 50px;
     margin-bottom: -70px; 
 }
@@ -529,6 +529,25 @@ form {
     text-decoration: none; 
     color: inherit;
 }
+
+/* Characters Section */
+
+.characters {
+    height: 50vh;
+    width: 100%; 
+    background-color: ivory; 
+    margin-bottom: -70px;
+}
+
+.characters-container {
+    display: inline; 
+}
+
+.characters-container h1 {
+    font-family: 'EB Garamond', serif; 
+    font-size: 30px;
+}
+
 
 /* Footer Section */
 
