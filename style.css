@@ -593,6 +593,22 @@ form {
     color: olive;
 }
 
+/* Update Section */
+.update {
+    height: 65vh;
+    width: 100%;
+    background-color: rgb(222, 240, 192);
+    margin-top: 50px;
+    margin-bottom: -70px;
+}
+
+.update-container h1 {
+    font-family: 'EB Garamond', serif; 
+    font-size: 35px;
+    text-align: center; 
+    padding-top: 50px;
+}
+
 /* Footer Section */
 
 .footer {
