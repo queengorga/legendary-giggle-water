@@ -533,7 +533,7 @@ form {
 /* Characters Section */
 
 .characters {
-    height: 118vh;
+    height: 130vh;
     width: 100%; 
     background-color: ivory; 
     margin-bottom: -70px;
@@ -595,7 +595,7 @@ form {
 
 /* Update Section */
 .update {
-    height: 65vh;
+    height: 100vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 50px;
@@ -609,6 +609,50 @@ form {
     padding-top: 50px;
 }
 
+.update-cards {
+    height: 350px;
+    width: 300px;
+    border: 2px solid ivory;
+    background-color: ivory;
+    display: inline-block;
+    margin: 10px 15px;
+    transform: translate(85%, 10%);
+    -webkit-transform: translate(85%, 10%);
+    -moz-transform: translate(85%, 10%);
+    -ms-transform: translate(85%, 10%);
+    -o-transform: translate(85%, 10%);
+}
+
+.update-cards h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    background-color:#556B2F;
+    color: ivory;
+    height: 50px;
+    width: 225px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: -2px;
+}
+
+.update-cards img {
+    height: 275px;
+    width: 300px;
+}
+
+.update-label h2 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+    padding-top: 10px;
+    text-align: center; 
+    color: ivory; 
+    background-color: black; 
+    opacity: .50;
+    margin-top: -20px;
+}
 /* Footer Section */
 
 .footer {
