@@ -595,7 +595,7 @@ form {
 
 /* Update Section */
 .update {
-    height: 110vh;
+    height: 108vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 50px;
@@ -606,7 +606,7 @@ form {
     font-family: 'EB Garamond', serif; 
     font-size: 35px;
     text-align: center; 
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .update-cards {
@@ -616,11 +616,11 @@ form {
     background-color: ivory;
     display: inline-block;
     margin: 10px 15px;
-    transform: translate(85%, 10%);
-    -webkit-transform: translate(85%, 10%);
-    -moz-transform: translate(85%, 10%);
-    -ms-transform: translate(85%, 10%);
-    -o-transform: translate(85%, 10%);
+    transform: translate(85%, 5%);
+    -webkit-transform: translate(85%, 5%);
+    -moz-transform: translate(85%, 5%);
+    -ms-transform: translate(85%, 5%);
+    -o-transform: translate(85%, 5%);
 }
 
 .update-cards h1 {
@@ -727,7 +727,7 @@ form {
 
 .top {
     background-color: #556B2F;
-    height: 5vh;
+    height: 4vh;
 }
 
 .top h1 {
@@ -736,7 +736,6 @@ form {
     text-decoration: none;
     color: white; 
     text-align: center;
-    padding: 4px 0 0 32px;
 }
 
 .top a {
