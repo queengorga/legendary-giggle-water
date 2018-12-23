@@ -717,7 +717,7 @@ form {
 /* Footer Section */
 
 .footer {
-    height: 75.5vh;
+    height: 65vh;
     width: 100%;
     margin-top: 70px;
     background-image: url(img/middleearth.jpg);
@@ -760,25 +760,25 @@ form {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    transform: translate(920%,10%);
-    -webkit-transform: translate(920%,10%);
-    -moz-transform: translate(920%,10%);
-    -ms-transform: translate(920%,10%);
-    -o-transform: translate(920%,10%);
+    transform: translate(900%,10%);
+    -webkit-transform: translate(900%,10%);
+    -moz-transform: translate(900%,10%);
+    -ms-transform: translate(900%,10%);
+    -o-transform: translate(900%,10%);
 }
 
 .footer-links ul {
-    text-align: center;
     padding-top: 20px;
-    padding-right: 5px;
 }
 
 .footer-links li {
     font-family: 'EB Garamond', serif;
     font-size: 20px; 
+    padding: 10px auto; 
+    margin-left: -35px;
+    text-align: center; 
     color: white; 
     list-style: none;
-    padding: 5px;
 }
 
 .footer-links a, .footer-links:visited {
@@ -798,6 +798,11 @@ form {
 .social-footer img {
     height: 50px;
     width: 50px;
+    transform: translate(-40%,10%);
+    -webkit-transform: translate(-40%,10%);
+    -moz-transform: translate(-40%,10%);
+    -ms-transform: translate(-40%,10%);
+    -o-transform: translate(-40%,10%);
 }
 
 .social-footer a, .social-footer a:hover, .social-footer:visited {
@@ -809,7 +814,7 @@ form {
 .brand {
     text-align: center;
     margin-top: -10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .brand h4 {
