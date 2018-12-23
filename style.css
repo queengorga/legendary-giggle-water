@@ -533,7 +533,7 @@ form {
 /* Characters Section */
 
 .characters {
-    height: 130vh;
+    height: 120vh;
     width: 100%; 
     background-color: ivory; 
     margin-bottom: -70px;
@@ -595,7 +595,7 @@ form {
 
 /* Update Section */
 .update {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 50px;
@@ -610,7 +610,7 @@ form {
 }
 
 .update-cards {
-    height: 350px;
+    height: 530px;
     width: 300px;
     border: 2px solid ivory;
     background-color: ivory;
@@ -630,15 +630,76 @@ form {
     color: ivory;
     height: 50px;
     width: 225px;
-    text-align: left;
+    text-align: center;
     padding-top: 5px;
-    padding-left: 10px;
     margin-top: -2px;
+}
+
+#news {
+    height: 50px;
+    width: 90px;
+    font-weight: bold;
+    letter-spacing: 1px; 
+}
+
+#features {
+    height: 50px;
+    width: 118px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#month {
+    height: 50px;
+    width: 225px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .update-cards img {
     height: 275px;
     width: 300px;
+}
+
+.update-cards h2 {
+    font-family: 'EB Garamond', serif; 
+    font-size: 25px;
+    text-align: center; 
+}
+
+.update-cards p {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+
+.update-cards button {
+    background-color: #556B2F;
+    text-align: center;
+    font-family: 'Libre Baskerville', sans-serif; 
+    font-size: 15px;
+    color: ivory; 
+    height: 40px;
+    width: 275px;
+    margin: 5px 10px 10px;
+}
+
+.update-cards button:hover {
+    border: 2px solid #556B2F;
+    background-color: ivory;
+    font-weight: bold;
+    color: #556B2F;
+    transition:.5s ease-in-out;
+    -webkit-transition:.5s ease-in-out;
+    -moz-transition:.5s ease-in-out;
+    -ms-transition:.5s ease-in-out;
+    -o-transition:.5s ease-in-out;
+}
+
+.update-cards a, .update-cards a:hover {
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .update-label h2 {
@@ -651,7 +712,7 @@ form {
     color: ivory; 
     background-color: black; 
     opacity: .50;
-    margin-top: -20px;
+    margin-top: -35px;
 }
 /* Footer Section */
 
