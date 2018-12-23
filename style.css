@@ -5,33 +5,33 @@
 
 #header {
     background-color: black;
-    height: 16vh;
+    height: 17vh;
     width: 100%;
 }
 
 /*LOGO*/
 .logo img {
-    height: 70px;
+    height: 60px;
     width: 50px;
     margin: 20px;
 }
 
 .logo h1 {
     font-family: 'EB Garamond', serif; 
-    font-size: 35px;
+    font-size: 29px;
     color: white; 
-    margin-top: -95px;
+    margin-top: -80px;
     margin-left: 80px;
 }
 
 .logo h2 {
     font-family: 'EB Garamond', serif; 
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
-    padding-bottom: 40px; 
+    padding-bottom: 55px; 
     margin-top: -18px;
-    margin-left: 85px;
+    margin-left: 80px;
 }
 
 /*NAVBAR*/
