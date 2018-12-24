@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|EB+Garamond|Libre+Baskerville" rel="stylesheet">
+    <title>Home: JRR Tolkien - The Digital Heart of Middle Earth</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html"><img id="header-img" src="img/logo.jpg" alt=""></a>
+            <h1>BERENMORE</h1>
+            <h2>The Web Heart of Middle Earth</h2>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="nav-link" href="index.html">HOME</a></li>
+                <li><a class="nav-link" href="#about">ABOUT</a></li>
+                <li><a class="nav-link" href="#writing">WRITING</a></li>
+                <li><a class="nav-link" href="#further-interest">FURTHER INTEREST</a></li>
+                <li><a class="nav-link" href="#features-news">FEATURES & NEWS</a></li>
+                <li><a class="nav-link" href="#faqs">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="welcome-slider">
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/gandalf.jpg" alt="">
+                    <div class="text-block">
+                        <h1>The Battle of the Peak</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, amet at id totam blanditiis
+                            dolores itaque veniam, ducimus eius hic optio eos?</p>
+                        <button><a href="">Read More</a></button>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/thering.jpg" alt="">
+                    <div class="text-block">
+                        <h1>One Ring to Rule Them All</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, amet at id totam blanditiis
+                            dolores itaque veniam, ducimus eius hic optio eos?</p>
+                        <button><a href="">Read More</a></button>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/smaug.jpg" alt="">
+                    <div class="text-block">
+                        <h1>King Under the Mountain</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, amet at id totam blanditiis
+                            dolores itaque veniam, ducimus eius hic optio eos?</p>
+                        <button><a href="">Read More</a></button>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/wraith.jpg" alt="">
+                    <div class="text-block">
+                        <h1>The Witch King of Angmar</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, amet at id totam blanditiis
+                            dolores itaque veniam, ducimus eius hic optio eos?</p>
+                        <button><a href="">Read More</a></button>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/quest.jpg" alt="">
+                    <div class="text-block">
+                        <h1>Quest of Erebor</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, amet at id totam blanditiis
+                            dolores itaque
+                            veniam, ducimus eius hic optio eos?</p>
+                        <button><a href="">Read More</a></button>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/fivearmies.jpg" alt="">
+                    <div class="text-block">
+                        <h1>The Battle of the Five Armies</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, amet at id totam blanditiis
+                            dolores itaque
+                            veniam, ducimus eius hic optio eos?</p>
+                        <button><a href="">Read More</a></button>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div style="text-align:center">
+                    <span class="diamond" onclick="currentSlide(1)"></span>
+                    <span class="diamond" onclick="currentSlide(2)"></span>
+                    <span class="diamond" onclick="currentSlide(3)"></span>
+                    <span class="diamond" onclick="currentSlide(4)"></span>
+                    <span class="diamond" onclick="currentSlide(5)"></span>
+                    <span class="diamond" onclick="currentSlide(6)"></span>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="banner">
+                <h1>Keep updated with our newsletter</h1>
+                <form action="">
+                    <input type="email" placeholder="Enter your email address" type="email" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$">
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="works-header">
+                <h1>Explore J.R.R. Tolkien's books, poetry, movies, audio recordings and other works</h1>
+            </div>
+
+            <div class="works-container">
+                <div class="works-card">
+                    <img src="img/books.jpg" alt="">
+                    <div class="card-label"><a href="">
+                            <h2>Read</h2>
+                        </a></div>
+                    <p>Discover over 45 books, includes all Tolkien's major publication.</p>
+                </div>
+
+                <div class="works-card">
+                    <img src="img/movies.jpg" alt="">
+                    <div class="card-label"><a href="">
+                            <h2>Watch</h2>
+                        </a></div>
+                    <p>Explore iconic Tolkien movies and TV show adaptations</p>
+                </div>
+
+                <div class="works-card">
+                    <img src="img/audiobook.jpg" alt="">
+                    <div class="card-label"><a href="">
+                            <h2>Listen</h2>
+                        </a></div>
+                    <p>Discover audiobooks and podcasts</p>
+                </div>
+
+                <div class="works-card">
+                    <img src="img/experience.jpg" alt="">
+                    <div class="card-label"><a href="">
+                            <h2>Experience</h2>
+                        </a></div>
+                    <p>Immerse yourself in the upcoming LOTR TV adaptation</p>
+                </div>
+
+                <div class="works-card">
+                    <img src="img/play.jpg" alt="">
+                    <div class="card-label"><a href="">
+                            <h2>Play</h2>
+                        </a></div>
+                    <p>Role-playing video game set on Middle Earth</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="new">
+            <div class="new-container">
+                <h1>New to JRR Tolkien?</h1>
+                <p>These books are the best ones to read to introduce yourself to <br> the wonderful and captivating
+                    world of Middle Earth.</p>
+                <button><a href="">Explore all books</a></button>
+                <div class="new-cards">
+                    <a href=""><img src="img/hobbit.jpg" alt=""></a>
+                    <a href=""><img src="img/gondolin.jpg" alt=""></a>
+                    <a href=""><img src="img/silmarillion.jpg" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="home">
+            <div class="home-container">
+                <img src="img/tolkien.jpeg" alt="">
+                <div class="home-block">
+                    <h1>The digital home of works of the Father of Modern Fantasy Literature</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Facilis illo labore ea sit
+                        molestiae ipsa repudiandae
+                        sapiente sunt, tenetur ipsum?</p>
+                    <button><a href="">More About JRR Tolkien</a></button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="characters">
+            <div class="characters-container">
+                <h1>A closer look at the characters from the stories</h1>
+                <div class="characters-cards">
+                    <a href=""><img src="img/thorin.jpg" alt="">
+                        <p>Thorin II Oakenshield</p>
+                    </a>
+                    <a href=""><img src="img/mithrandir.jpg" alt="">
+                        <p>Mithrandir</p>
+                    </a>
+                    <a href=""><img src="img/galadriel.jpg" alt="">
+                        <p>Galadriel</p>
+                    </a>
+                    <a href=""><img src="img/aragorn.jpg" alt="">
+                        <p>Aragorn</p>
+                    </a>
+                </div>
+                <div class="characters-cards">
+                    <a href=""><img src="img/sauron.jpg" alt="">
+                        <p>Sauron</p>
+                    </a>
+                    <a href=""><img src="img/bilbo.jpg" alt="">
+                        <p>Bilbo Baggins</p>
+                    </a>
+                    <a href=""><img src="img/thranduil.jpg" alt="">
+                        <p>Thranduil</p>
+                    </a>
+                    <a href=""><img src="img/other.jpg" alt="">
+                        <p>View all characters</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="update">
+            <div class="update-container">
+                <h1>Stay up to date with Tolkien news and articles</h1>
+                <div class="update-cards">
+                    <h1 id="news">News</h1>
+                    <img src="img/christmas.jpg" alt="">
+                    <div class="update-label"><a href="">
+                            <h2>25 December 2018</h2>
+                        </a></div>
+                    <h2>A Christmas Gift Guide</h2>
+                    <p>Immerse yourself in the upcoming LOTR TV adaptation</p>
+                    <button><a href="">Read More</a></button>
+                </div>
+                <div class="update-cards">
+                    <h1 id="features">Features</h1>
+                    <img src="img/feature.jpg" alt="">
+                    <div class="update-label"><a href="">
+                            <h2>25 December 2018</h2>
+                        </a></div>
+                    <h2>A Christmas Gift Guide</h2>
+                    <p>Immerse yourself in the upcoming LOTR TV adaptation</p>
+                    <button><a href="">Read More</a></button>
+                </div>
+                <div class="update-cards">
+                    <h1 id="month">Book of the Month</h1>
+                    <img src="img/month.JPG" alt="">
+                    <div class="update-label"><a href="">
+                            <h2>25 December 2018</h2>
+                        </a></div>
+                    <h2>A Christmas Gift Guide</h2>
+                    <p>Immerse yourself in the upcoming LOTR TV adaptation</p>
+                    <button><a href="">Read More</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="top">
+                <h1><a href="#header">BACK TO TOP</a></h1>
+            </div>
+            <footer>
+
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="">TERMS OF USE</a></li>
+                        <li><a href="">PRIVACY COOKIES AND POLICY</a></li>
+                        <li><a href="">ENQUIRIES</a></li>
+                        <li><a href="">LINKS</a></li>
+                        <li><a href="">MEDIA KIT</a></li>
+                        <li><a href="">LEGAL</a></li>
+                    </ul>
+                </div>
+
+                <div class="social-footer">
+                    <ul>
+                        <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+                        <li><a href=""><img src="img/instagram.png" alt=""></a></li>
+                        <li><a href=""><img src="img/twitter.png" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="logo-footer">
+                    <a href="index.html"><img src="img/logo.jpg" alt=""></a>
+                </div>
+
+                <div class="brand">
+                    <h4>&copy 2018 <strong>BERENMORE</strong> | The Web Heart of Middle Earth</h4>
+                </div>
+
+            </footer>
+        </section>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
