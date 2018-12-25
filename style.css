@@ -533,7 +533,7 @@ form {
 /* Characters Section */
 
 .characters {
-    height: 120vh;
+    height: 110vh;
     width: 100%; 
     background-color: ivory; 
     margin-bottom: -70px;
@@ -550,22 +550,23 @@ form {
     display: flex;
     flex-direction: row;
     flex-grow: inherit;
-    transform:translate(12%, 15%);
-    -webkit-transform:translate(12%, 15%);
-    -moz-transform:translate(12%, 15%);
-    -ms-transform:translate(12%, 15%);
-    -o-transform:translate(12%, 15%);
+    transform:translate(4.5%, 15%);
+    -webkit-transform:translate(4.5%, 15%);
+    -moz-transform:translate(4.5%, 15%);
+    -ms-transform:translate(4.5%, 15%);
+    -o-transform:translate(4.5%, 15%);
+    margin-bottom: 20px;
 }
 
 .characters-cards img {
-    height: 250px;
-    width: 265px;
+    height: 215px;
+    width: 215px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    margin:15px;
+    margin: 8px;
 }
 
 .characters-cards img:hover {
