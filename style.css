@@ -870,3 +870,17 @@ form {
     -ms-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
 }
+
+.known-as {
+    height: 10vh; 
+    width: 100%; 
+    background-color: rgb(222, 240, 192);
+    margin-bottom: -70px;
+}
+
+.known-as h1 {
+    font-family: 'EB Garamond', serif; 
+    font-size: 30px; 
+    text-align: center; 
+    padding-top: 10px;
+}
