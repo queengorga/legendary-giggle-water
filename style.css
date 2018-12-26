@@ -887,3 +887,35 @@ form {
     text-align: center; 
     padding: 8px;
 }
+
+/*Intro About Section*/ 
+
+.intro-about {
+    height: 55vh;
+    width: 100%; 
+    background-color: ivory; 
+    margin-top: 70px; 
+    margin-bottom: -70px;
+}
+
+.intro-container {
+    display: inline-flex; 
+    margin: 50px 150px; 
+}
+
+.intro-container img {
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    margin: 0 20px;
+}
+
+.intro-text p {
+    font-family: 'EB Garamond', serif; 
+    font-size: 25px;
+    margin-top: 25px; 
+}
