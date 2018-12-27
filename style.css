@@ -923,3 +923,19 @@ form {
     font-size: 20px;
     margin-top: 10px; 
 }
+
+/*Facts Section*/
+
+.facts {
+    height: 30vh;
+    width: 100%; 
+    background-color: rgb(222, 240, 192); 
+    margin-bottom: -70px; 
+}
+
+hr {
+    height: 10px; 
+    width: 150px; 
+    color: #556B2F;
+    border: 2px solid #556B2F; 
+}
