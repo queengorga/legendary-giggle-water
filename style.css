@@ -927,15 +927,61 @@ form {
 /*Facts Section*/
 
 .facts {
-    height: 30vh;
+    height: 35vh;
     width: 100%; 
     background-color: rgb(222, 240, 192); 
     margin-bottom: -70px; 
 }
 
-hr {
-    height: 10px; 
-    width: 150px; 
-    color: #556B2F;
-    border: 2px solid #556B2F; 
+hr.line {
+    width: 30%;
+    margin: 0 auto;
+    border: 0px none white;
+    border-top: 2px solid #556B2F;
+}
+
+.facts-container h1 {
+    font-family: 'EB Garamond', serif; 
+    font-size: 30px; 
+    text-align: center; 
+    padding-top: 40px;
+}
+
+.facts-container h3 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    padding-top: 10px; 
+    text-align: center;  
+}
+
+.facts-container button {
+    height: 50px;
+    width: 250px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 20px;
+    background-color: #556B2F; 
+    color: ivory; 
+    transform: translate(254%,5%);
+    -webkit-transform: translate(254%,5%);
+    -moz-transform: translate(254%,5%);
+    -ms-transform: translate(254%,5%);
+    -o-transform: translate(254%,5%);
+}
+
+.facts-container button:hover {
+    border: 2px solid #556B2F;
+    background-color: transparent;
+    color:#556B2F;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.facts-container a, .facts-container a:visited {
+    text-decoration: none; 
+    color: inherit;
 }
