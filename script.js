@@ -46,3 +46,4 @@ function currentSlide(index) {
     slides[index - 1].style.display = "block";
     diamonds[index - 1].className += " active";
 }
+
