@@ -985,3 +985,21 @@ hr.line {
     text-decoration: none; 
     color: inherit;
 }
+
+/* JRR Tolkien Life header section */
+
+.life-header {
+    height: 10vh; 
+    width: 100%; 
+    background-color: rgb(171, 199, 123);
+    margin-top: 70px;
+    margin-bottom: -70px; 
+}
+
+.life-container h1 {
+    font-family: 'EB Garamond', serif; 
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 4px;  
+    padding-top: 10px;
+}
