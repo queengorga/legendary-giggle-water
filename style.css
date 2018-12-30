@@ -988,6 +988,14 @@ hr.line {
 
 /* JRR Tolkien Life header section */
 
+.life {
+    height: 100vh; 
+    width: 100%;
+    margin-top: 50px; 
+    margin-bottom: -70px; 
+    background-color: ivory; 
+}
+
 .life-header {
     height: 10vh; 
     width: 100%; 
