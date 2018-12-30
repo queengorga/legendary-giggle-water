@@ -876,7 +876,7 @@ form {
 .known-as {
     height: 7vh; 
     width: 100%; 
-    background-color: rgb(222, 240, 192);
+    background-color: #556B2F;
     margin-bottom: -70px;
 }
 
@@ -886,6 +886,7 @@ form {
     font-weight: bold; 
     text-align: center; 
     padding: 8px;
+    color: ivory;
 }
 
 /*Intro About Section*/ 
@@ -927,7 +928,7 @@ form {
 /*Facts Section*/
 
 .facts {
-    height: 35vh;
+    height: 30vh;
     width: 100%; 
     background-color: rgb(222, 240, 192); 
     margin-bottom: -70px; 
@@ -951,7 +952,7 @@ hr.line {
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 18px;
     font-style: oblique;
-    padding-top: 10px; 
+    padding-top: 15px; 
     text-align: center;  
 }
 
@@ -962,6 +963,7 @@ hr.line {
     font-size: 20px;
     background-color: #556B2F; 
     color: ivory; 
+    margin-top: 12px;
     transform: translate(254%,5%);
     -webkit-transform: translate(254%,5%);
     -moz-transform: translate(254%,5%);
@@ -1013,13 +1015,6 @@ hr.line {
 }
 
 /*Tab Section - Tolkien's Life*/
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body,
-html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial;
-}
 
 /* Style tab links */
 .tablink {
@@ -1045,7 +1040,6 @@ html {
     -o-transition: .5s ease-in-out;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
     color: white;
     display: none;
