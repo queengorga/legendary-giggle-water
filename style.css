@@ -1031,7 +1031,7 @@ hr.line {
 }
 
 .tablink:hover {
-    background-color: rgb(222, 240, 192);
+    background-color: ivory;
     color: #556B2F;
     transition: .5s ease-in-out;
     -webkit-transition: .5s ease-in-out;
@@ -1045,24 +1045,4 @@ hr.line {
     display: none;
     padding: 100px 20px;
     height: 100%;
-}
-
-#early-life {
-    background-color: red;
-}
-
-#early-career {
-    background-color: green;
-}
-
-#lotr {
-    background-color: blue;
-}
-
-#retirement {
-    background-color: orange;
-}
-
-#posthumous {
-    background-color: purple;
 }
