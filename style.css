@@ -1018,8 +1018,8 @@ hr.line {
 
 /* Style tab links */
 .tablink {
-    background-color: #556B2F;
-    color: white;
+    background-color: ivory;
+    color: #556B2F;
     float: left;
     border: none;
     outline: none;
@@ -1031,7 +1031,7 @@ hr.line {
 }
 
 .tablink:hover {
-    background-color: ivory;
+    background-color: rgb(222, 240, 192);
     color: #556B2F;
     transition: .5s ease-in-out;
     -webkit-transition: .5s ease-in-out;
@@ -1045,4 +1045,29 @@ hr.line {
     display: none;
     padding: 100px 20px;
     height: 100%;
+}
+
+#early-life {
+    background-color: rgb(222, 240, 192);
+    color: #556B2F;
+}
+
+#early-career {
+    background-color: rgb(222, 240, 192);
+    color: #556B2F;
+}
+
+#lotr {
+    background-color: rgb(222, 240, 192);
+    color: #556B2F;
+}
+
+#retirement {
+    background-color: rgb(222, 240, 192);
+    color: #556B2F;
+}
+
+#posthumous {
+    background-color: rgb(222, 240, 192);
+    color: #556B2F;
 }
