@@ -1071,3 +1071,17 @@ hr.line {
     background-color: rgb(222, 240, 192);
     color: #556B2F;
 }
+
+.dark {
+    background-color: rgb(117, 153, 56);
+    color: ivory;
+}
+
+.light {
+    background-color: ivory;
+    color: #556B2F;
+}
+
+table {
+    width: 80%;
+}
