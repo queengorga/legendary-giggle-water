@@ -1082,6 +1082,21 @@ hr.line {
     color: #556B2F;
 }
 
+.dark:hover {
+    background-color: ivory;
+    color: #556B2F;
+}
+
+.light:hover {
+    background-color: ivory;
+    color: #556B2F;
+}
+
 table {
     width: 80%;
+}
+
+.tabcontent h3 {
+    font-family: 'EB Garamond', serif; 
+    font-size: 30px;
 }
