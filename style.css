@@ -1088,8 +1088,8 @@ hr.line {
 }
 
 .light:hover {
-    background-color: ivory;
-    color: #556B2F;
+    background-color: #556B2F;
+    color: ivory;
 }
 
 .tab-career {
