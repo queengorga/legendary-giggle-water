@@ -1092,11 +1092,26 @@ hr.line {
     color: #556B2F;
 }
 
-table {
+.tab-career {
     width: 80%;
+    transform: translate(12%, 10%);
+    -webkit-transform: translate(12%, 10%);
+    -moz-transform: translate(12%, 10%);
+    -ms-transform: translate(12%, 10%);
+    -o-transform: translate(12%, 10%);
+}
+
+.tab-life {
+    width: 80%;
+    transform: translate(12%, 2%);
+    -webkit-transform: translate(12%, 2%);
+    -moz-transform: translate(12%, 2%);
+    -ms-transform: translate(12%, 2%);
+    -o-transform: translate(12%, 2%);
 }
 
 .tabcontent h3 {
     font-family: 'EB Garamond', serif; 
     font-size: 30px;
+    text-align: center; 
 }
