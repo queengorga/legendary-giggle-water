@@ -1156,6 +1156,9 @@ hr.line {
 .discover {
     height: 60vh;
     width: 100%;
+    background-color: rgb(222, 240, 192);
+    margin-top: 70px;
+    margin-bottom: -70px;  
 }
 
 .discover-cards {
@@ -1163,16 +1166,16 @@ hr.line {
 }
 
 .cards-box {
-    border: 2px solid black;
     height: 260px;
     width: 400px;
     text-align: center;
     margin: 20px;
-    transform: translate(81%, 50%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    background-color: ivory;
+    transform: translate(81%, 30%);
+    -webkit-transform: translate(81%, 30%);
+    -moz-transform: translate(81%, 30%);
+    -ms-transform: translate(81%, 30%);
+    -o-transform: translate(81%, 30%);
 }
 
 .cards-box img {
@@ -1180,8 +1183,43 @@ hr.line {
     width: 200px;
 }
 
-.cards-box p {
+.cards-box h1 {
     font-family: 'Libre Baskerville', sans-serif;
+    font-size: 25px;
     padding-top: 10px;
     text-align: center;
+}
+
+.cards-box p {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 15px;
+    margin: 5px; 
+    padding-top: 10px;
+    text-align: center;
+}
+
+.cards-box button {
+    height: 50px; 
+    width: 250px;
+    margin-top: 20px;
+    color: ivory; 
+    background-color: #556B2F; 
+    font-family: 'Cabin Condensed';
+    font-size: 20px;
+}
+
+.cards-box button:hover {
+    color: #556B2F;
+    border: 2px solid #556B2F;
+    background-color: ivory;
+    transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -ms-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+}
+
+.cards-box a, .cards-box a:visited {
+    text-decoration: none; 
+    color: inherit; 
 }
