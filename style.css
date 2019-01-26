@@ -1151,3 +1151,37 @@ hr.line {
     padding: 8px;
     color: ivory;
 }
+
+/*Discover Section*/
+.discover {
+    height: 60vh;
+    width: 100%;
+}
+
+.discover-cards {
+    display: inline-flex;
+}
+
+.cards-box {
+    border: 2px solid black;
+    height: 260px;
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+    transform: translate(81%, 50%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
+
+.cards-box img {
+    height: 250px;
+    width: 200px;
+}
+
+.cards-box p {
+    font-family: 'Libre Baskerville', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
