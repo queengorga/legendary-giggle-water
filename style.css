@@ -1136,20 +1136,20 @@ hr.line {
 
 /*Discover Header Section*/
 .discover-header {
-    height: 7vh;
+    height: 12vh;
     width: 100%;
     background-color: #556B2F;
+    margin-top: 70px;
     margin-bottom: -70px;
 }
 
 .discover-header h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 8px;
+    font-size: 35px;
     color: ivory;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 10px;
 }
 
 /*Discover Section*/
@@ -1226,18 +1226,17 @@ hr.line {
 
 /*Buy Header Section*/
 .buy-header {
-    height: 7vh;
+    height: 12vh;
     width: 100%;
-    background-color: #556B2F;
+    background-color: rgb(171, 199, 123);
+    margin-top: 70px;
     margin-bottom: -70px;
 }
 
-.buy-header h1 {
+.buyheader-container h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-size: 35px;
     text-align: center;
-    padding: 8px;
-    color: ivory;
+    letter-spacing: 4px;
+    padding-top: 10px;
 }
