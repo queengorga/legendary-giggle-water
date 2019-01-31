@@ -1321,3 +1321,12 @@ hr.line {
     margin-top: 70px;
     margin-bottom: -70px;
 }
+
+.feature-container h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    color:ivory; 
+}
