@@ -1334,7 +1334,7 @@ hr.line {
 .feature {
     height: 75vh;
     width: 100%;
-    background-color: ivory;
+    background-color: rgb(222, 240, 192);
     margin-top: 70px;
     margin-bottom: -70px;
 }
