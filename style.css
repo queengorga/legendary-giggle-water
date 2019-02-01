@@ -1330,3 +1330,75 @@ hr.line {
     padding-top: 10px;
     color:ivory; 
 }
+
+.feature-container {
+    display: inline-flex;
+    transform: translate(10%, 5%);
+    -webkit-transform: translate(10%, 5%);
+    -moz-transform: translate(10%, 5%);
+    -ms-transform: translate(10%, 5%);
+    -o-transform: translate(10%, 5%);
+}
+
+.feature-container img {
+    height: 400px;
+    width: 300px;
+    margin: 50px;
+}
+
+.feature-container h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 10px;
+}
+
+.feature-text h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.feature-text h2 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.feature-text h3 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.feature-text p {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.feature-text button {
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    color: ivory;
+    background-color: #556B2F;
+    font-family: 'Cabin Condensed';
+    font-size: 20px;
+}
+
+.feature-text button:hover {
+    color: #556B2F;
+    border: 2px solid #556B2F;
+    background-color: ivory;
+    transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -ms-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+}
