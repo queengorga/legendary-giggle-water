@@ -1322,7 +1322,7 @@ hr.line {
     margin-bottom: -70px;
 }
 
-.feature-container h1 {
+.featureheader-container h1 {
     font-family: 'EB Garamond', serif;
     font-size: 35px;
     text-align: center;
@@ -1331,10 +1331,18 @@ hr.line {
     color:ivory; 
 }
 
+.feature {
+    height: 75vh;
+    width: 100%;
+    background-color: ivory;
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+
 .feature-container {
     display: inline-flex;
     transform: translate(10%, 5%);
-    -webkit-transform: translate(10%, 5%);
+    -webkit-transform: translate(12%, 5%);
     -moz-transform: translate(10%, 5%);
     -ms-transform: translate(10%, 5%);
     -o-transform: translate(10%, 5%);
@@ -1349,7 +1357,7 @@ hr.line {
 .feature-container h1 {
     font-family: 'EB Garamond', serif;
     font-size: 35px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 4px;
     padding-top: 10px;
 }
@@ -1357,7 +1365,6 @@ hr.line {
 .feature-text h1 {
     font-family: 'EB Garamond', serif;
     font-size: 35px;
-    text-align: left;
     padding-top: 10px;
 }
 
