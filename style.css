@@ -999,7 +999,7 @@ hr.line {
 }
 
 .life-header {
-    height: 12vh; 
+    height: 10vh; 
     width: 100%; 
     background-color: rgb(171, 199, 123);
     margin-top: 70px;
@@ -1008,10 +1008,10 @@ hr.line {
 
 .life-container h1 {
     font-family: 'EB Garamond', serif; 
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     letter-spacing: 4px;  
-    padding-top: 10px;
+    padding-top: 2px;
 }
 
 /*Tab Section - Tolkien's Life*/
@@ -1136,7 +1136,7 @@ hr.line {
 
 /*Discover Header Section*/
 .discover-header {
-    height: 12vh;
+    height: 8vh;
     width: 100%;
     background-color: #556B2F;
     margin-top: 70px;
@@ -1145,16 +1145,16 @@ hr.line {
 
 .discover-header h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 35px;
+    font-size: 30px;
     color: ivory;
     text-align: center;
     letter-spacing: 4px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 /*Discover Section*/
 .discover {
-    height: 60vh;
+    height: 55vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 70px;
@@ -1171,11 +1171,11 @@ hr.line {
     text-align: center;
     margin: 20px;
     background-color: ivory;
-    transform: translate(81%, 30%);
-    -webkit-transform: translate(81%, 30%);
-    -moz-transform: translate(81%, 30%);
-    -ms-transform: translate(81%, 30%);
-    -o-transform: translate(81%, 30%);
+    transform: translate(81%, 20%);
+    -webkit-transform: translate(81%, 20%);
+    -moz-transform: translate(81%, 20%);
+    -ms-transform: translate(81%, 20%);
+    -o-transform: translate(81%, 20%);
 }
 
 .cards-box img {
