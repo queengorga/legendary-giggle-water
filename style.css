@@ -1226,7 +1226,7 @@ hr.line {
 
 /*Buy Header Section*/
 .buy-header {
-    height: 12vh;
+    height: 8vh;
     width: 100%;
     background-color: rgb(171, 199, 123);
     margin-top: 70px;
@@ -1258,10 +1258,10 @@ hr.line {
 
 .buyheader-container h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     letter-spacing: 4px;
-    padding-top: 10px;
+    padding-top: 2px;
 }
 
 .buy-text h1 {
@@ -1315,7 +1315,7 @@ hr.line {
 
 /*Feature Section*/
 .feature-header {
-    height: 12vh;
+    height: 8vh;
     width: 100%;
     background-color: #556B2F;
     margin-top: 70px;
@@ -1324,10 +1324,10 @@ hr.line {
 
 .featureheader-container h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     letter-spacing: 4px;
-    padding-top: 10px;
+    padding-top: 2px;
     color:ivory; 
 }
 
