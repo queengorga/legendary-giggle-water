@@ -883,7 +883,7 @@ form {
 .known-as h1 {
     font-family: 'EB Garamond', serif; 
     font-size: 25px;
-    font-weight: bold; 
+    letter-spacing: 2px; 
     text-align: center; 
     padding: 8px;
     color: ivory;
