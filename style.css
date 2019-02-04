@@ -1409,3 +1409,15 @@ hr.line {
     -ms-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
 }
+
+/*Writing Page*/
+/*Writing Section*/
+.writing-header {
+    height: 55vh;
+    width: 100%;
+    background-image: url(img/writing.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -20px;
+    margin-bottom: -70px; 
+}
