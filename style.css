@@ -1421,3 +1421,22 @@ hr.line {
     margin-top: -20px;
     margin-bottom: -70px; 
 }
+
+.header-container h1 {
+    font-family: 'EB Garamond', serif;  
+    font-size: 60px; 
+    text-align: center;
+    color: white; 
+    letter-spacing: 4px; 
+    text-shadow: 1px 1px black;
+    padding-top: 125px;
+}
+
+.header-container h3 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding-top: -20px;
+}
