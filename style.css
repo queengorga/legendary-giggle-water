@@ -1433,10 +1433,27 @@ hr.line {
 }
 
 .header-container h3 {
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Cabin Condensed', sans-serif;
     font-size: 25px;
+    letter-spacing: 2px; 
     text-align: center;
     color: white;
     text-shadow: 1px 1px black;
     padding-top: -20px;
+}
+
+/*Writing Intro Section*/
+.writing-intro {
+    height: 65vh; 
+    width: 100%; 
+    background-color: ivory; 
+    margin-bottom: -70px; 
+}
+
+.intro-container p {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 15px;
+    margin: 15px 150px;
+    text-align: justify;
+    line-height: 2; 
 }
