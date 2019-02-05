@@ -1457,3 +1457,91 @@ hr.line {
     text-align: justify;
     line-height: 2; 
 }
+
+/*Spotlight Header Section*/
+.spotlight-header {
+    height: 8vh;
+    width: 100%;
+    background-color: #556B2F;
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+
+.spotlight-container h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 2px;
+    color: ivory;
+}
+
+.spotlight {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(222, 240, 192);
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+
+.inspotlight-container {
+    display: inline-flex;
+    transform: translate(10%, 5%);
+    -webkit-transform: translate(10%, 5%);
+    -moz-transform: translate(10%, 5%);
+    -ms-transform: translate(10%, 5%);
+    -o-transform: translate(10%, 5%);
+}
+
+.inspotlight-container img {
+    height: 415px;
+    width: 275px;
+    margin: 50px;
+}
+
+.spotlight-text h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    text-align: left;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    margin-left: 20px; 
+}
+
+.spotlight-text h2 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.spotlight-text p {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 10px;
+    margin: 20px; 
+}
+
+.spotlight-text button {
+    height: 50px;
+    width: 850px;
+    margin-top: 20px;
+    color: ivory;
+    background-color: #556B2F;
+    font-family: 'Cabin Condensed';
+    font-size: 25px;
+    margin-left: 20px; 
+    letter-spacing: 4px; 
+}
+
+.spotlight-text button:hover {
+    color: #556B2F;
+    border: 2px solid #556B2F;
+    background-color: ivory;
+    transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -ms-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+}
