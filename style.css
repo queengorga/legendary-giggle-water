@@ -1439,7 +1439,7 @@ hr.line {
     text-align: center;
     color: white;
     text-shadow: 1px 1px black;
-    padding-top: -20px;
+    margin-top: -15px;
 }
 
 /*Writing Intro Section*/
