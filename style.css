@@ -1458,8 +1458,10 @@ hr.line {
     line-height: 2; 
 }
 
-/*Spotlight Header Section & Middle Earth Header Section*/
-.spotlight-header, .middleearth-header {
+/*Spotlight Header Section & Middle Earth Header Section & Non-Fiction Section*/
+.spotlight-header,
+.middleearth-header,
+.nonfiction-header {
     height: 8vh;
     width: 100%;
     background-color: #556B2F;
@@ -1467,7 +1469,9 @@ hr.line {
     margin-bottom: -70px;
 }
 
-.spotlight-container h1, .middleearth-container h1 {
+.spotlight-container h1, 
+.middleearth-container h1, 
+.nonfiction-container h1 {
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-align: center;
@@ -1476,7 +1480,8 @@ hr.line {
     color: ivory;
 }
 
-.spotlight {
+.spotlight,
+.nonfiction {
     height: 80vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
@@ -1492,7 +1497,7 @@ hr.line {
     margin-bottom: -70px;
 }
 
-.inspotlight-container, .middlebeyond-container {
+.inspotlight-container, .middlebeyond-container,.notfiction-container {
     display: inline-flex;
     transform: translate(10%, 5%);
     -webkit-transform: translate(10%, 5%);
@@ -1501,13 +1506,20 @@ hr.line {
     -o-transform: translate(10%, 5%);
 }
 
-.inspotlight-container img, .middlebeyond-container img {
+.inspotlight-container img, 
+.middlebeyond-container img {
     height: 415px;
     width: 275px;
     margin: 50px;
 }
 
-.spotlight-text h1, .middleearth-text h1 {
+.notfiction-container img {
+    height: 410px;
+    width: 275px;
+    margin: 50px;
+}
+
+.spotlight-text h1, .middleearth-text h1,.nonfiction-text h1{
     font-family: 'EB Garamond', serif;
     font-size: 35px;
     text-align: left;
@@ -1517,7 +1529,8 @@ hr.line {
 }
 
 .spotlight-text h2,
-.middleearth-text h2 {
+.middleearth-text h2,
+.nonfiction-text h2 {
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 25px;
     text-align: left;
@@ -1525,7 +1538,8 @@ hr.line {
 }
 
 .spotlight-text p, 
-.middleearth-text p {
+.middleearth-text p,
+.nonfiction-text p {
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 18px;
     text-align: left;
@@ -1534,7 +1548,8 @@ hr.line {
 }
 
 .spotlight-text button,
-.middleearth-text button {
+.middleearth-text button,
+.nonfiction-text button {
     height: 50px;
     width: 850px;
     margin-top: 20px;
@@ -1547,7 +1562,8 @@ hr.line {
 }
 
 .spotlight-text button:hover, 
-.middleearth-text button:hover {
+.middleearth-text button:hover,
+.nonfiction button:hover {
     color: #556B2F;
     border: 2px solid #556B2F;
     background-color: ivory;
