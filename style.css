@@ -1458,8 +1458,8 @@ hr.line {
     line-height: 2; 
 }
 
-/*Spotlight Header Section*/
-.spotlight-header {
+/*Spotlight Header Section & Middle Earth Header Section*/
+.spotlight-header, .middleearth-header {
     height: 8vh;
     width: 100%;
     background-color: #556B2F;
@@ -1467,7 +1467,7 @@ hr.line {
     margin-bottom: -70px;
 }
 
-.spotlight-container h1 {
+.spotlight-container h1, .middleearth-container h1 {
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-align: center;
@@ -1484,7 +1484,15 @@ hr.line {
     margin-bottom: -70px;
 }
 
-.inspotlight-container {
+.middle-earth {
+    height: 80vh;
+    width: 100%;
+    background-color: ivory;
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+
+.inspotlight-container, .middlebeyond-container {
     display: inline-flex;
     transform: translate(10%, 5%);
     -webkit-transform: translate(10%, 5%);
@@ -1493,13 +1501,13 @@ hr.line {
     -o-transform: translate(10%, 5%);
 }
 
-.inspotlight-container img {
+.inspotlight-container img, .middlebeyond-container img {
     height: 415px;
     width: 275px;
     margin: 50px;
 }
 
-.spotlight-text h1 {
+.spotlight-text h1, .middleearth-text h1 {
     font-family: 'EB Garamond', serif;
     font-size: 35px;
     text-align: left;
@@ -1508,14 +1516,16 @@ hr.line {
     margin-left: 20px; 
 }
 
-.spotlight-text h2 {
+.spotlight-text h2,
+.middleearth-text h2 {
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 25px;
     text-align: left;
     padding-top: 10px;
 }
 
-.spotlight-text p {
+.spotlight-text p, 
+.middleearth-text p {
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 18px;
     text-align: left;
@@ -1523,7 +1533,8 @@ hr.line {
     margin: 20px; 
 }
 
-.spotlight-text button {
+.spotlight-text button,
+.middleearth-text button {
     height: 50px;
     width: 850px;
     margin-top: 20px;
@@ -1535,7 +1546,8 @@ hr.line {
     letter-spacing: 4px; 
 }
 
-.spotlight-text button:hover {
+.spotlight-text button:hover, 
+.middleearth-text button:hover {
     color: #556B2F;
     border: 2px solid #556B2F;
     background-color: ivory;
@@ -1545,3 +1557,4 @@ hr.line {
     -ms-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
 }
+
