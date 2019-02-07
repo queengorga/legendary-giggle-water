@@ -1458,10 +1458,11 @@ hr.line {
     line-height: 2; 
 }
 
-/*Spotlight Header Section & Middle Earth Header Section & Non-Fiction Section*/
+/*Spotlight Header Section & Middle Earth Header Section & Non-Fiction Section & Young Readers Section*/
 .spotlight-header,
 .middleearth-header,
-.nonfiction-header {
+.nonfiction-header,
+.youngreaders-header {
     height: 8vh;
     width: 100%;
     background-color: #556B2F;
@@ -1471,7 +1472,8 @@ hr.line {
 
 .spotlight-container h1, 
 .middleearth-container h1, 
-.nonfiction-container h1 {
+.nonfiction-container h1,
+.youngreaders-container h1 {
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-align: center;
