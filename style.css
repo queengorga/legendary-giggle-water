@@ -1582,3 +1582,35 @@ hr.line {
     -o-transition: .25s ease-in-out;
 }
 
+/*Film and TV Page*/
+
+/*Film Header Section*/
+.film-header {
+    height: 55vh;
+    width: 100%;
+    background-image: url(img/writing.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -10px;
+    margin-bottom: -70px;
+}
+
+.film-container h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px black;
+    padding-top: 125px;
+}
+
+.film-container h3 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-top: -15px;
+}
