@@ -1615,3 +1615,112 @@ hr.line {
     text-shadow: 2px 2px 2px black;
     margin-top: -15px;
 }
+
+/*News Section*/
+.news {
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(222, 240, 192);
+    margin-top: 50px;
+    margin-bottom: -70px;
+}
+
+.news-container h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.news-cards {
+    height: 530px;
+    width: 300px;
+    border: 2px solid ivory;
+    background-color: ivory;
+    display: inline-block;
+    margin: 10px 15px;
+    transform: translate(87%, 5%);
+    -webkit-transform: translate(87%, 5%);
+    -moz-transform: translate(87%, 5%);
+    -ms-transform: translate(87%, 5%);
+    -o-transform: translate(87%, 5%);
+}
+
+.news-cards h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    background-color: #556B2F;
+    color: ivory;
+    height: 50px;
+    width: 225px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: -2px;
+}
+
+#news {
+    height: 50px;
+    width: 90px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.news-cards img {
+    height: 275px;
+    width: 300px;
+}
+
+.news-cards h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.news-cards p {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+
+.news-cards button {
+    background-color: #556B2F;
+    text-align: center;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 15px;
+    color: ivory;
+    height: 40px;
+    width: 275px;
+    margin: 5px 10px 10px;
+}
+
+.news-cards button:hover {
+    border: 2px solid #556B2F;
+    background-color: ivory;
+    font-weight: bold;
+    color: #556B2F;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.news-cards a,
+.news-cards a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.news-label h2 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+    padding-top: 10px;
+    text-align: center;
+    color: ivory;
+    background-color: black;
+    opacity: .50;
+    margin-top: -35px;
+}
