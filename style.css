@@ -1724,3 +1724,26 @@ hr.line {
     opacity: .50;
     margin-top: -35px;
 }
+
+/*Features and News Page*/
+/*Features Header Section*/
+.features-header {
+    height: 65vh;
+    width: 100%;
+    background-image: url(img/lotr.jpg);
+    background-size: cover;
+    background-position: top;
+    margin-top: -10px;
+    margin-bottom: -70px;
+}
+
+.features-container h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 150px;
+}
