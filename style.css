@@ -1747,3 +1747,82 @@ hr.line {
     text-shadow: 2px 2px 2px black;
     padding-top: 150px;
 }
+
+/*Feature Intro Section*/
+
+.filmintro {
+    height: 80vh; 
+    width: 100%; 
+}
+
+.filmintro-container {
+    display: inline-flex;
+    transform: translate(10%, 5%);
+    -webkit-transform: translate(10%, 5%);
+    -moz-transform: translate(10%, 5%);
+    -ms-transform: translate(10%, 5%);
+    -o-transform: translate(10%, 5%);
+}
+
+.filmintro-container img {
+    height: 400px;
+    width: 300px;
+    margin: 50px;
+}
+
+.filmintro-container h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 2px;
+}
+
+.filmintro-text h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.filmintro-text h2 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.filmintro-text h3 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.filmintro-text p {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.filmintro-text button {
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    color: ivory;
+    background-color: #556B2F;
+    font-family: 'Cabin Condensed';
+    font-size: 20px;
+}
+
+.filmintro-text button:hover {
+    color: #556B2F;
+    border: 2px solid #556B2F;
+    background-color: ivory;
+    transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -ms-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+}
