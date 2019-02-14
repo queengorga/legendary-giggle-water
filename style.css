@@ -1753,6 +1753,8 @@ hr.line {
 .filmintro {
     height: 80vh; 
     width: 100%; 
+    background-color: ivory; 
+    margin-bottom: -70px; 
 }
 
 .filmintro-container {
