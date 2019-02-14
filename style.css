@@ -1618,7 +1618,7 @@ hr.line {
 
 /*News Section*/
 .news {
-    height: 200vh;
+    height: 175vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 50px;
@@ -1639,11 +1639,11 @@ hr.line {
     background-color: ivory;
     display: inline-block;
     margin: 10px 15px;
-    transform: translate(87%, 5%);
-    -webkit-transform: translate(87%, 5%);
-    -moz-transform: translate(87%, 5%);
-    -ms-transform: translate(87%, 5%);
-    -o-transform: translate(87%, 5%);
+    transform: translate(87%, 15%);
+    -webkit-transform: translate(87%, 15%);
+    -moz-transform: translate(87%, 15%);
+    -ms-transform: translate(87%, 15%);
+    -o-transform: translate(87%, 15%);
 }
 
 .news-cards h1 {
@@ -1746,6 +1746,16 @@ hr.line {
     letter-spacing: 4px;
     text-shadow: 2px 2px 2px black;
     padding-top: 150px;
+}
+
+.features-container h3 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: -15px;
 }
 
 /*Feature Intro Section*/
