@@ -1839,4 +1839,68 @@ hr.line {
     -o-transition: .25s ease-in-out;
 }
 
-//
+/*Film TV Section*/
+.filmtv {
+    height: 125vh;
+    width: 100%;
+    background-color: rgb(222, 240, 192);
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+
+.filmtv-header h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 75px;
+    text-align: center;
+}
+
+.filmtv-container {
+    display: inline-flex;
+}
+
+.filmtv-card {
+    border: 8px solid black;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    transform: translate(80%, 10%);
+    -webkit-transform: translate(80%, 10%);
+    -moz-transform: translate(80%, 10%);
+    -ms-transform: translate(80%, 10%);
+    -o-transform: translate(80%, 10%);
+}
+
+.filmtv-card img {
+    height: 250px;
+    width: 200px;
+}
+
+.filmtv-card p {
+    font-family: 'Libre Baskerville', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.filmtv-label {
+    height: 75px;
+    width: 200px;
+    background-color: black;
+    opacity: .75;
+    margin-top: -85px;
+}
+
+.filmtv-label h2 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 25px;
+    padding-top: 30px;
+}
+
+.filmtv-label:hover {
+    opacity: .5;
+}
