@@ -1861,7 +1861,7 @@ hr.line {
 }
 
 .filmtv-card {
-    border: 8px solid black;
+    border: 8px solid #556B2F;
     height: 250px;
     width: 200px;
     text-align: center;
@@ -1876,6 +1876,7 @@ hr.line {
 .filmtv-card img {
     height: 250px;
     width: 200px;
+    border: 6px solid white;
 }
 
 .filmtv-card p {
