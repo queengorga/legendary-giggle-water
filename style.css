@@ -1903,12 +1903,20 @@ hr.line {
     padding-top: 5px;
 }
 
+.filmtv-label #auj {
+    font-size: 20px;
+    font-weight: bold; 
+    line-height: .85;
+    margin-bottom: 10px;
+}
+
 .filmtv-label h2 {
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
+    letter-spacing: 4px; 
     color: white;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .filmtv-label h2:hover {
