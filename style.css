@@ -1886,22 +1886,31 @@ hr.line {
 }
 
 .filmtv-label {
-    height: 75px;
+    height: 78px;
     width: 200px;
     background-color: black;
     opacity: .75;
     margin-top: -85px;
 }
 
+.filmtv-label h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+}
+
 .filmtv-label h2 {
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Cabin Condensed', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: white;
-    height: 25px;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 
-.filmtv-label:hover {
-    opacity: .5;
+.filmtv-label h2:hover {
+    text-decoration: underline;
 }
