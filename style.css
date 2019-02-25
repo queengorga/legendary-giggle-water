@@ -1910,6 +1910,13 @@ hr.line {
     margin-bottom: 10px;
 }
 
+.filmtv-label #rotk {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: .85;
+    padding-top: 15px;
+}
+
 .filmtv-label h2 {
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 15px;
