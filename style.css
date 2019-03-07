@@ -1959,7 +1959,7 @@ hr.line {
 
 /*Character Header Section*/
 .character-header {
-    height: 65vh;
+    height: 75vh;
     width: 100%;
     background-image: url(img/characters.jpg);
     background-size: cover;
@@ -1977,4 +1977,14 @@ hr.line {
     letter-spacing: 4px;
     text-shadow: 2px 2px 2px black;
     padding-top: 175px;
+}
+
+.character-container h3 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: -15px;
 }
