@@ -1954,3 +1954,27 @@ hr.line {
     text-shadow: 2px 2px 2px black;
     padding-top: 175px;
 }
+
+/*Characters Page*/
+
+/*Character Header Section*/
+.character-header {
+    height: 65vh;
+    width: 100%;
+    background-image: url(img/faq.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -10px;
+    margin-bottom: -70px;
+}
+
+.character-container h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 175px;
+}
