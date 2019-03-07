@@ -832,7 +832,7 @@ form {
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; 
-    height: 60vh; 
+    height: 75vh; 
     width: 100%; 
     margin-top: -10px;
     margin-bottom: -70px;
@@ -1414,7 +1414,7 @@ hr.line {
 /*Writing Page*/
 /*Writing Section*/
 .writing-header {
-    height: 55vh;
+    height: 75vh;
     width: 100%;
     background-image: url(img/writing.jpg);
     background-size: cover;
@@ -1587,7 +1587,7 @@ hr.line {
 
 /*Film Header Section*/
 .film-header {
-    height: 65vh;
+    height: 75vh;
     width: 100%;
     background-image: url(img/lotr.jpg);
     background-size: cover;
@@ -1729,7 +1729,7 @@ hr.line {
 /*Features and News Page*/
 /*Features Header Section*/
 .features-header {
-    height: 65vh;
+    height: 75vh;
     width: 100%;
     background-image: url(img/features.jpg);
     background-size: cover;
@@ -1935,7 +1935,7 @@ hr.line {
 
 /*FAQ Header Section*/
 .faq-header {
-    height: 65vh;
+    height: 75vh;
     width: 100%;
     background-image: url(img/faq.jpg);
     background-size: cover;
