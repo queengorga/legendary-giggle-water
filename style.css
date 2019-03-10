@@ -1988,3 +1988,112 @@ hr.line {
     text-shadow: 2px 2px 2px black;
     margin-top: -15px;
 }
+
+/*Characters Page*/
+.character-body {
+    height: 300vh;
+    width: 100%;
+    background-color: #556B2F;
+}
+
+.charbody-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #556B2F;
+}
+
+.character-left img {
+    float: left;
+    height: 625px;
+    width: 50%;
+}
+
+.character-left h1 {
+    font-family: 'EB Garamond', serif;
+    color: ivory;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.character-left p {
+    font-family: 'Libre Baskerville', sans-serif;
+    color: ivory;
+    font-size: 18px;
+    text-align: right;
+    padding-top: 20px;
+    margin: 20px 50px 0 50px;
+}
+
+.character-left button {
+    height: 50px;
+    width: 150px;
+    border: 2px solid ivory;
+    background: transparent;
+    font-family: 'Cabin Condensed',
+        sans-serif;
+    font-size: 25px;
+    color: ivory;
+    float: right;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+
+.character-left button:hover {
+    color: #556B2F;
+    background-color: ivory;
+    transition: .5s ease-in-out;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+
+.character-right img {
+    float: right;
+    height: 625px;
+    width: 50%;
+}
+
+.character-right h1 {
+    font-family: 'EB Garamond', serif;
+    color: ivory;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.character-right p {
+    font-family: 'Libre Baskerville', sans-serif;
+    color: ivory;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 20px;
+    margin: 20px 50px 0 50px;
+}
+
+.character-right button {
+    height: 50px;
+    width: 150px;
+    border: 2px solid ivory;
+    background: transparent;
+    font-family: 'Cabin Condensed',
+        sans-serif;
+    font-size: 25px;
+    color: ivory;
+    float: left;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.character-right button:hover {
+    color: #556B2F;
+    background-color: ivory;
+    transition: .5s ease-in-out;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
