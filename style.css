@@ -2009,9 +2009,13 @@ hr.line {
     width: 50%;
 }
 
+.character-left {
+    background-color: ivory; 
+}
+
 .character-left h1 {
     font-family: 'EB Garamond', serif;
-    color: ivory;
+    color: #556B2F;
     font-size: 30px;
     letter-spacing: 5px;
     text-align: center;
@@ -2020,7 +2024,7 @@ hr.line {
 
 .character-left p {
     font-family: 'Libre Baskerville', sans-serif;
-    color: ivory;
+    color: #556B2F;
     font-size: 18px;
     text-align: right;
     padding-top: 20px;
@@ -2030,25 +2034,25 @@ hr.line {
 .character-left button {
     height: 50px;
     width: 150px;
-    border: 2px solid ivory;
+    border: 2px solid #556B2F;
     background: transparent;
     font-family: 'Cabin Condensed',
         sans-serif;
     font-size: 25px;
-    color: ivory;
+    color: #556B2F;
     float: right;
     margin-right: 55px;
     margin-top: 20px;
 }
 
 .character-left button:hover {
-    color: #556B2F;
-    background-color: ivory;
+    color: ivory;
+    background-color: #556B2F;
     transition: .5s ease-in-out;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
 }
 
 .character-right img {
@@ -2093,8 +2097,8 @@ hr.line {
     color: #556B2F;
     background-color: ivory;
     transition: .5s ease-in-out;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
 }
