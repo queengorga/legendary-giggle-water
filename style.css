@@ -1931,10 +1931,10 @@ hr.line {
     text-decoration: underline;
 }
 
-/*FAQ Page*/
+/*Community Page*/
 
-/*FAQ Header Section*/
-.faq-header {
+/*Community Header Section*/
+.community-header {
     height: 75vh;
     width: 100%;
     background-image: url(img/faq.jpg);
@@ -1944,7 +1944,7 @@ hr.line {
     margin-bottom: -70px;
 }
 
-.faq-container h1 {
+.community-container h1 {
     font-family: 'EB Garamond', serif;
     font-weight: bold;
     font-size: 60px;
@@ -1953,6 +1953,16 @@ hr.line {
     letter-spacing: 4px;
     text-shadow: 2px 2px 2px black;
     padding-top: 175px;
+}
+
+.community-container h3 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 15px;
 }
 
 /*Characters Page*/
