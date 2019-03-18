@@ -2116,11 +2116,14 @@ hr.line {
 /*Community List Section*/
 .community-list {
     background: ivory;
+    margin-top: -10px;
+    margin-bottom: -70px;
+    height: 110vh;
 }
 
 .tilesWrap {
-    padding-top: 80px;
-    margin: 50px auto;
+    padding-top: 50px;
+    margin: 55px auto;
     list-style: none;
     text-align: center;
 }
@@ -2128,7 +2131,7 @@ hr.line {
 .tilesWrap li {
     display: inline-block;
     width: 20%;
-    min-width: 200px;
+    min-width: 275px;
     max-width: 230px;
     padding: 80px 20px 40px;
     position: relative;
