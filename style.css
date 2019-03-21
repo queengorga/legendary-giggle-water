@@ -2144,10 +2144,10 @@ hr.line {
 }
 
 .tilesWrap li h2 {
-    font-size: 114px;
+    font-size: 115px;
     margin: 0;
     position: absolute;
-    opacity: 0.25;
+    opacity: 0.5;
     top: 50px;
     right: 10px;
     transition: all 0.3s ease-in-out;
