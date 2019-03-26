@@ -2311,24 +2311,26 @@ hr.line {
 
 /*Facts Main Section*/
 .facts-main {
-    height: 200vh;
+    height: 1000vh;
     width: 100%;
     background-color: ivory;
-    margin-top: -10px;
+    margin-top: -50px;
     margin-bottom: -70px;
 }
 
 .main-container ol{
     margin: 50px auto; 
+    padding: 50px 300px;
 }
 
 .main-container li {
     font-family: 'EB Garamond', serif; 
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    margin: 20px auto; 
 }
 
 .main-container p {
     font-family: 'Libre Baskerville', sans-serif; 
-    font-size: 15px;
+    font-size: 18px;
 }
