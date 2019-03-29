@@ -2193,12 +2193,13 @@ hr.line {
     -o-transform: translateY(-40px);
 }
 
-.tilesWrap li button:before {
+.tilesWrap li:after, button:before {
     content: '';
     position: absolute;
     height: 100%;
     width: 120%;
     background: goldenrod;
+    border-color: 2px goldenrod; 
     top: 0;
     opacity: 0;
     left: -140px;
@@ -2249,30 +2250,6 @@ hr.line {
     left: 0;
     top: 0;
     background: rgba(255, 255, 255, 0.02);
-}
-
-.tilesWrap li:nth-child(1):before {
-    background: #C9FFBF;
-    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
-    background: linear-gradient(to right, #FFAFBD, #C9FFBF);
-}
-
-.tilesWrap li:nth-child(2):before {
-    background: #f2709c;
-    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
-    background: linear-gradient(to right, #ff9472, #f2709c);
-}
-
-.tilesWrap li:nth-child(3):before {
-    background: #c21500;
-    background: -webkit-linear-gradient(to right, #ffc500, #c21500);
-    background: linear-gradient(to right, #ffc500, #c21500);
-}
-
-.tilesWrap li:nth-child(4):before {
-    background: #FC354C;
-    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
-    background: linear-gradient(to right, #0ABFBC, #FC354C);
 }
 
 /*Facts Page*/
