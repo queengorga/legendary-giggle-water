@@ -2142,6 +2142,11 @@ hr.line {
     background: #262a2b;
     border: 1px solid #252727;
     text-align: left;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .tilesWrap li h2 {
@@ -2180,7 +2185,7 @@ hr.line {
     border: 1px solid #b7b7b7;
     padding: 10px 20px;
     color: ivory;
-    border-radius: 3px;
+    border-radius: 5px;
     position: relative;
     transition: all 0.3s ease-in-out;
     transform: translateY(-40px);
@@ -2191,6 +2196,10 @@ hr.line {
     -moz-transform: translateY(-40px);
     -ms-transform: translateY(-40px);
     -o-transform: translateY(-40px);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .tilesWrap li:after, button:before {
