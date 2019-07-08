@@ -843,10 +843,11 @@ form {
 
 .about-container h1 {
     font-family: 'EB Garamond', serif; 
-    font-size: 80px;
+    font-size: 5rem;
     text-align: center; 
     color: white; 
-    padding-top: 90px;
+    padding-top: 3em;
+    text-shadow: 1px 1px black;
 }
 
 .about-container button {
@@ -854,14 +855,14 @@ form {
     width: 225px;
     margin: 15px;
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 18px;
+    font-size: 1.25rem;
     background-color: #556B2F;
     color: ivory;
-    transform: translate(222%,10%);
-    -webkit-transform: translate(222%,10%);
-    -moz-transform: translate(222%,10%);
-    -ms-transform: translate(222%,10%);
-    -o-transform: translate(222%,10%);
+    transform: translate(300%,10%);
+    -webkit-transform: translate(300%,10%);
+    -moz-transform: translate(300%,10%);
+    -ms-transform: translate(300%,10%);
+    -o-transform: translate(300%,10%);
 }
 
 .about-container button:hover {
@@ -878,7 +879,7 @@ form {
 /*Known as Section*/
 
 .known-as {
-    height: 7vh; 
+    height: 6vh; 
     width: 100%; 
     background-color: #556B2F;
     margin-bottom: -70px;
@@ -886,7 +887,7 @@ form {
 
 .known-as h1 {
     font-family: 'EB Garamond', serif; 
-    font-size: 25px;
+    font-size: 2rem;
     letter-spacing: 2px; 
     text-align: center; 
     padding: 8px;
@@ -896,7 +897,7 @@ form {
 /*Intro About Section*/ 
 
 .intro-about {
-    height: 63vh;
+    height: 55vh;
     width: 100%; 
     background-color: ivory; 
     margin-top: 70px; 
@@ -909,24 +910,25 @@ form {
 }
 
 .intro-container img {
-    height: 300px;
-    width: 250px;
+    height: 350px;
+    width: 300px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    margin: 0 50px;
+    margin: 0 0 0 15em;
 }
 
 .intro-text {
-    padding-top: 50px; 
+    padding-top: 5em; 
+    margin-left: -5em;
 }
 
 .intro-text p {
     font-family: 'EB Garamond', serif; 
-    font-size: 20px;
-    margin-top: 10px; 
+    font-size: 50px;
+    margin-top: 1em; 
 }
 
 /*Facts Section*/
@@ -949,7 +951,7 @@ hr.line {
     font-family: 'EB Garamond', serif; 
     font-size: 30px; 
     text-align: center; 
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 .facts-container h3 {
@@ -965,14 +967,14 @@ hr.line {
     width: 250px;
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 20px;
-    background-color: #556B2F; 
-    color: ivory; 
+    background-color: #556B2F;
+    color: ivory;
     margin-top: 12px;
-    transform: translate(254%,5%);
-    -webkit-transform: translate(254%,5%);
-    -moz-transform: translate(254%,5%);
-    -ms-transform: translate(254%,5%);
-    -o-transform: translate(254%,5%);
+    transform: translate(325%,5%);
+    -webkit-transform: translate(325%,5%);
+    -moz-transform: translate(325%,5%);
+    -ms-transform: translate(325%,5%);
+    -o-transform: translate(325%,5%);
 }
 
 .facts-container button:hover {
@@ -1003,7 +1005,7 @@ hr.line {
 }
 
 .life-header {
-    height: 10vh; 
+    height: 8vh; 
     width: 100%; 
     background-color: rgb(171, 199, 123);
     margin-top: 70px;
@@ -1012,7 +1014,7 @@ hr.line {
 
 .life-container h1 {
     font-family: 'EB Garamond', serif; 
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
     letter-spacing: 4px;  
     padding-top: 2px;
@@ -1140,7 +1142,7 @@ hr.line {
 
 /*Discover Header Section*/
 .discover-header {
-    height: 8vh;
+    height: 7vh;
     width: 100%;
     background-color: #556B2F;
     margin-top: 70px;
@@ -1149,7 +1151,7 @@ hr.line {
 
 .discover-header h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 30px;
+    font-size: 2rem;
     color: ivory;
     text-align: center;
     letter-spacing: 4px;
@@ -1170,8 +1172,8 @@ hr.line {
 }
 
 .cards-box {
-    height: 260px;
-    width: 400px;
+    height: 325px;
+    width: 475px;
     text-align: center;
     margin: 20px;
     background-color: ivory;
@@ -1190,14 +1192,14 @@ hr.line {
 .cards-box h1 {
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 25px;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
 }
 
 .cards-box p {
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 15px;
-    margin: 5px; 
+    margin: 25px 35px 25px 35px; 
     padding-top: 10px;
     text-align: center;
 }
@@ -1230,7 +1232,7 @@ hr.line {
 
 /*Buy Header Section*/
 .buy-header {
-    height: 8vh;
+    height: 7vh;
     width: 100%;
     background-color: rgb(171, 199, 123);
     margin-top: 70px;
@@ -1238,7 +1240,7 @@ hr.line {
 }
 
 .buy {
-    height: 75vh;
+    height: 65vh;
     width: 100%;
     background-color: ivory;
     margin-top: 70px;
@@ -1247,51 +1249,51 @@ hr.line {
 
 .buy-container {
     display: inline-flex;
-    transform: translate(10%, 5%);
-    -webkit-transform: translate(10%, 5%);
-    -moz-transform: translate(10%, 5%);
-    -ms-transform: translate(10%, 5%);
-    -o-transform: translate(10%, 5%);
+    transform: translate(20%, 5%);
+    -webkit-transform: translate(20%, 5%);
+    -moz-transform: translate(20%, 5%);
+    -ms-transform: translate(20%, 5%);
+    -o-transform: translate(20%, 5%);
 }
 
 .buy-container img {
-    height: 400px;
-    width: 300px;  
+    height: 450px;
+    width: 350px;  
     margin: 50px; 
 }
 
 .buyheader-container h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
     letter-spacing: 4px;
-    padding-top: 2px;
+    padding-top: 10px;
 }
 
 .buy-text h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 35px;
+    font-size: 3rem;
     text-align: left;
     padding-top: 10px;
 }
 
 .buy-text h2 {
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 2rem;
     text-align: left;
     padding-top: 10px;
 }
 
 .buy-text h3 {
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: left;
     padding-top: 50px;
 }
 
 .buy-text p {
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 1.35rem;
     text-align: left;
     padding-top: 10px;
 }
@@ -1299,11 +1301,11 @@ hr.line {
 .buy-text button {
     height: 50px;
     width: 250px;
-    margin-top: 20px;
+    margin-top: 30px;
     color: ivory;
     background-color: #556B2F;
     font-family: 'Cabin Condensed';
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .buy-text button:hover {
@@ -1328,15 +1330,15 @@ hr.line {
 
 .featureheader-container h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
     letter-spacing: 4px;
-    padding-top: 2px;
+    padding-top: 10px;
     color:ivory; 
 }
 
 .feature {
-    height: 75vh;
+    height: 65vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 70px;
@@ -1345,50 +1347,50 @@ hr.line {
 
 .feature-container {
     display: inline-flex;
-    transform: translate(10%, 5%);
-    -webkit-transform: translate(12%, 5%);
-    -moz-transform: translate(10%, 5%);
-    -ms-transform: translate(10%, 5%);
-    -o-transform: translate(10%, 5%);
+    transform: translate(25%, 5%);
+    -webkit-transform: translate(23%, 5%);
+    -moz-transform: translate(25%, 5%);
+    -ms-transform: translate(25%, 5%);
+    -o-transform: translate(25%, 5%);
 }
 
 .feature-container img {
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     margin: 50px;
 }
 
 .feature-container h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 35px;
+    font-size: 2rem;
     text-align: left;
     letter-spacing: 4px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .feature-text h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 35px;
+    font-size: 3rem;
     padding-top: 10px;
 }
 
 .feature-text h2 {
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 2rem;
     text-align: left;
     padding-top: 10px;
 }
 
 .feature-text h3 {
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 20px;
+    font-size: 1.35rem;
     text-align: left;
     padding-top: 50px;
 }
 
 .feature-text p {
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 1.25rem;
     text-align: left;
     padding-top: 10px;
 }
@@ -1400,7 +1402,7 @@ hr.line {
     color: ivory;
     background-color: #556B2F;
     font-family: 'Cabin Condensed';
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .feature-text button:hover {
