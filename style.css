@@ -5,7 +5,7 @@
 
 #header {
     background-color: black;
-    height: 17vh;
+    height: 10vh;
     width: 100%;
 }
 
@@ -39,7 +39,7 @@
     list-style: none;
     text-decoration: none;  
     text-align: right;
-    margin: -65px 20px 2px auto;
+    margin: -95px 20px 2px auto;
 }
 
 .navbar li {
