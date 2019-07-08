@@ -2006,7 +2006,7 @@ hr.line {
 
 /*Characters Page*/
 .character-body {
-    height: 942vh;
+    height: 785vh;
     width: 100%;
     background-color: #556B2F;
     margin-top: 70px;
@@ -2020,7 +2020,7 @@ hr.line {
 
 .character-left img {
     float: left;
-    height: 625px;
+    height: 675px;
     width: 50%;
 }
 
@@ -2031,7 +2031,7 @@ hr.line {
 .character-left h1 {
     font-family: 'EB Garamond', serif;
     color: #556B2F;
-    font-size: 30px;
+    font-size: 2.5rem;
     letter-spacing: 5px;
     text-align: center;
     padding-top: 50px;
@@ -2072,14 +2072,14 @@ hr.line {
 
 .character-right img {
     float: right;
-    height: 625px;
+    height: 675px;
     width: 50%;
 }
 
 .character-right h1 {
     font-family: 'EB Garamond', serif;
     color: ivory;
-    font-size: 30px;
+    font-size: 2.5rem;
     letter-spacing: 5px;
     text-align: center;
     padding-top: 50px;
