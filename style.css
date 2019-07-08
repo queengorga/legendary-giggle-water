@@ -1624,7 +1624,7 @@ hr.line {
 
 /*News Section*/
 .news {
-    height: 240vh;
+    height: 195vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 50px;
@@ -1639,17 +1639,17 @@ hr.line {
 }
 
 .news-cards {
-    height: 510px !important; 
+    height: 510px !important;
     width: 300px !important;
     border: 2px solid ivory;
     background-color: ivory;
     display: inline-block;
-    margin: 10px 15px;
-    transform: translate(80%, 15%);
-    -webkit-transform: translate(80%, 15%);
-    -moz-transform: translate(80%, 15%);
-    -ms-transform: translate(80%, 15%);
-    -o-transform: translate(80%, 15%);
+    margin: 25px 25px;
+    transform: translate(145%, 15%);
+    -webkit-transform: translate(145%, 15%);
+    -moz-transform: translate(145%, 15%);
+    -ms-transform: translate(145%, 15%);
+    -o-transform: translate(145%, 15%);
 }
 
 .news-cards h1 {
@@ -1952,7 +1952,7 @@ hr.line {
 .community-container h1 {
     font-family: 'EB Garamond', serif;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 3rem;
     text-align: center;
     color: white;
     letter-spacing: 4px;
@@ -1962,7 +1962,7 @@ hr.line {
 
 .community-container h3 {
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
     letter-spacing: 2px;
     text-align: center;
     color: white;
