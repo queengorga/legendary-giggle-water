@@ -251,16 +251,14 @@
 
 /* Newsletter Section */
 .newsletter {
-    height: 12vh;
+    height: 2vh;
     width: 100%;
     background-color: ivory;
-    margin-top: 70px;
-    margin-bottom: -70px;
+    margin-top: 4em;
 }
 
 .banner {
-    padding-top: 10px;
-    margin-left: 325px;
+    margin-left: 35em;
     display: inline-flex;
 }
 
@@ -322,7 +320,7 @@ form {
 /*Works Section*/
 
 .works {
-    height: 85vh;
+    height: 70vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 70px;
@@ -343,20 +341,20 @@ form {
 
 .works-card {
     border: 8px solid #556B2F;
-    height: 250px;
-    width: 200px;
+    height: 350px;
+    width: 300px;
     text-align: center;
-    margin: 20px;
-    transform: translate(80%,10%);
-    -webkit-transform: translate(80%,10%);
-    -moz-transform: translate(80%,10%);
-    -ms-transform: translate(80%,10%);
-    -o-transform: translate(80%,10%);
+    margin: 12px;
+    transform: translate(52%,10%);
+    -webkit-transform: translate(52%,10%);
+    -moz-transform: translate(52%,10%);
+    -ms-transform: translate(52%,10%);
+    -o-transform: translate(52%,10%);
 }
 
 .works-card img {
-    height: 250px;
-    width: 200px;
+    height: 350px;
+    width: 300px;
     border: 8px solid ivory;
 }
 
@@ -368,18 +366,18 @@ form {
 
 .card-label {
     height: 75px;
-    width: 200px;
+    width: 300px;
     background-color: black;
     opacity: .75;
     margin-top: -85px;
 }
 .card-label h2 {
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
     height: 25px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .card-label:hover {
@@ -392,7 +390,7 @@ form {
     height: 35vh;
     width: 100%;
     background-color: ivory;
-    margin-top: 50px;
+    margin-top: 8rem;
 }
 
 .new-container {
@@ -401,26 +399,26 @@ form {
 
 .new-container h1 {
     font-family: 'EB Garamond', serif; 
-    font-size: 30px; 
+    font-size: 2rem; 
     padding-top: 50px;
-    padding-left: 225px;
+    padding-left: 200px;
 }
 
 .new-container p {
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 15px;
-    padding-left: 225px;
+    font-size: 1.25rem;
+    padding-left: 200px;
 }
 
 .new-container button {
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 15px;
-    height: 50px; 
+    font-size: 1rem;
+    height: 50px;
     width: 200px;
     margin-top: 10px;
-    margin-left: 225px;
-    background-color: #556B2F; 
-    color: ivory; 
+    margin-left: 200px;
+    background-color: #556B2F;
+    color: ivory;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -446,14 +444,14 @@ form {
 }
 
 .new-cards img {
-    height: 200px;
-    width: 175px;
+    height: 300px;
+    width: 275px;
     margin-left: 15px;
-    transform: translate(412%,-80%);
-    -webkit-transform: translate(412%,-80%);
-    -moz-transform: translate(412%,-80%);
-    -ms-transform: translate(412%,-80%);
-    -o-transform: translate(412%,-80%);
+    transform: translate(302%,-65%);
+    -webkit-transform: translate(302%,-65%);
+    -moz-transform: translate(302%,-65%);
+    -ms-transform: translate(302%,-65%);
+    -o-transform: translate(302%,-65%);
 }
 
 .new-cards img:hover {
@@ -472,16 +470,16 @@ form {
 
 .home-container {
     display: inline-flex;
-    transform:translate(23%,25%);
-    -moz-transform:translate(23%,25%);
-    -ms-transform:translate(23%,25%);
-    -o-transform:translate(23%,25%);
-    -webkit-transform:translate(23%,25%);
+    transform:translate(33%,25%);
+    -moz-transform:translate(33%,25%);
+    -ms-transform:translate(33%,25%);
+    -o-transform:translate(33%,25%);
+    -webkit-transform:translate(33%,25%);
 }
 
 .home-container img {
-    height: 250px;
-    width: 185px;
+    height: 350px;
+    width: 285px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -491,21 +489,21 @@ form {
 
 .home-block h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 30px;
-    margin-left: 35px;
-    padding-top: 30px;
+    font-size: 2rem;
+    margin-left: 2em;
+    padding-top: 2em;
 }
 
 .home-block p {
     font-family: 'Libre Baskerville',sans-serif;
-    font-size: 15px;
-    margin-left: 35px;
+    font-size: 1.25rem;
+    margin-left: 3.5em;
 }
 
 .home-block button {
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 15px;
-    margin-left: 35px;
+    font-size: 1.25rem;
+    margin-left: 4rem;
     height: 50px;
     width: 300px;
     background-color: #556B2F;
@@ -538,7 +536,7 @@ form {
 /* Characters Section */
 
 .characters {
-    height: 110vh;
+    height: 85vh;
     width: 100%; 
     background-color: ivory; 
     margin-bottom: -70px;
@@ -555,11 +553,11 @@ form {
     display: flex;
     flex-direction: row;
     flex-grow: inherit;
-    transform:translate(4.5%, 15%);
-    -webkit-transform:translate(4.5%, 15%);
-    -moz-transform:translate(4.5%, 15%);
-    -ms-transform:translate(4.5%, 15%);
-    -o-transform:translate(4.5%, 15%);
+    transform:translate(13%, 15%);
+    -webkit-transform:translate(13%, 15%);
+    -moz-transform:translate(13%, 15%);
+    -ms-transform:translate(13%, 15%);
+    -o-transform:translate(13%, 15%);
     margin-bottom: 20px;
 }
 
@@ -601,7 +599,7 @@ form {
 
 /* Update Section */
 .update {
-    height: 108vh;
+    height: 80vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 50px;
@@ -622,11 +620,11 @@ form {
     background-color: ivory;
     display: inline-block;
     margin: 10px 15px;
-    transform: translate(87%, 5%);
-    -webkit-transform: translate(87%, 5%);
-    -moz-transform: translate(87%, 5%);
-    -ms-transform: translate(87%, 5%);
-    -o-transform: translate(87%, 5%);
+    transform: translate(150%, 5%);
+    -webkit-transform: translate(150%, 5%);
+    -moz-transform: translate(150%, 5%);
+    -ms-transform: translate(150%, 5%);
+    -o-transform: translate(150%, 5%);
 }
 
 .update-cards h1 {
@@ -723,7 +721,7 @@ form {
 /* Footer Section */
 
 .footer {
-    height: 65vh;
+    height: 61.75vh;
     width: 100%;
     margin-top: 70px;
     background-image: url(img/middleearth.jpg);
@@ -738,10 +736,11 @@ form {
 
 .top h1 {
     font-family: 'EB Garamond', serif; 
-    font-size: 18px;
+    font-size: 1.25rem;
     text-decoration: none;
     color: white; 
     text-align: center;
+    padding: 5px;
 }
 
 .top a {
@@ -762,15 +761,15 @@ form {
     height: 115px;
     width: 80px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    transform: translate(900%,10%);
-    -webkit-transform: translate(900%,10%);
-    -moz-transform: translate(900%,10%);
-    -ms-transform: translate(900%,10%);
-    -o-transform: translate(900%,10%);
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    transform: translate(1140%,10%);
+    -webkit-transform: translate(1140%,10%);
+    -moz-transform: translate(1140%,10%);
+    -ms-transform: translate(1140%,10%);
+    -o-transform: translate(1140%,10%);
 }
 
 .footer-links ul {
@@ -779,7 +778,7 @@ form {
 
 .footer-links li {
     font-family: 'EB Garamond', serif;
-    font-size: 20px; 
+    font-size: 1.75rem; 
     padding: 10px auto; 
     margin-left: -35px;
     text-align: center; 
