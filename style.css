@@ -1767,7 +1767,7 @@ hr.line {
 /*Feature Intro Section*/
 
 .filmintro {
-    height: 75vh; 
+    height: 60vh; 
     width: 100%; 
     background-color: ivory; 
     margin-bottom: -70px; 
@@ -1775,11 +1775,11 @@ hr.line {
 
 .filmintro-container {
     display: inline-flex;
-    transform: translate(10%, 5%);
-    -webkit-transform: translate(10%, 5%);
-    -moz-transform: translate(10%, 5%);
-    -ms-transform: translate(10%, 5%);
-    -o-transform: translate(10%, 5%);
+    transform: translate(20%, 5%);
+    -webkit-transform: translate(20%, 5%);
+    -moz-transform: translate(20%, 5%);
+    -ms-transform: translate(20%, 5%);
+    -o-transform: translate(20%, 5%);
 }
 
 .filmintro-container img {
@@ -1790,7 +1790,7 @@ hr.line {
 
 .filmintro-container h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 30px;
+    font-size: 3rem;
     text-align: center;
     letter-spacing: 4px;
     padding-top: 2px;
@@ -1847,7 +1847,7 @@ hr.line {
 
 /*Film TV Section*/
 .filmtv {
-    height: 152vh;
+    height: 145vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 70px;
@@ -1868,20 +1868,20 @@ hr.line {
 
 .filmtv-card {
     border: 8px solid #556B2F;
-    height: 250px;
-    width: 200px;
+    height: 325px;
+    width: 275px;
     text-align: center;
     margin: 20px;
-    transform: translate(80%, 10%);
-    -webkit-transform: translate(80%, 10%);
-    -moz-transform: translate(80%, 10%);
-    -ms-transform: translate(80%, 10%);
-    -o-transform: translate(80%, 10%);
+    transform: translate(62%, 10%);
+    -webkit-transform: translate(62%, 10%);
+    -moz-transform: translate(62%, 10%);
+    -ms-transform: translate(62%, 10%);
+    -o-transform: translate(62%, 10%);
 }
 
 .filmtv-card img {
-    height: 250px;
-    width: 200px;
+    height: 325px;
+    width: 275px;
     border: 6px solid white;
 }
 
@@ -1893,7 +1893,7 @@ hr.line {
 
 .filmtv-label {
     height: 78px;
-    width: 200px;
+    width: 275px;
     background-color: black;
     opacity: .75;
     margin-top: -85px;
