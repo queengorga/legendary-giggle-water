@@ -1430,27 +1430,27 @@ hr.line {
 
 .header-container h1 {
     font-family: 'EB Garamond', serif;  
-    font-size: 60px; 
+    font-size: 4rem; 
     text-align: center;
     color: white; 
     letter-spacing: 4px; 
-    text-shadow: 1px 1px black;
-    padding-top: 125px;
+    text-shadow: 2px 2px black;
+    padding-top: 5em;
 }
 
 .header-container h3 {
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 2rem;
     letter-spacing: 2px; 
     text-align: center;
     color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
     margin-top: -15px;
 }
 
 /*Writing Intro Section*/
 .writing-intro {
-    height: 65vh; 
+    height: 45vh; 
     width: 100%; 
     background-color: ivory; 
     margin-bottom: -70px; 
@@ -1458,9 +1458,9 @@ hr.line {
 
 .intro-container p {
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 15px;
+    font-size: 1.05rem;
     margin: 15px 150px;
-    text-align: justify;
+    text-align: center;
     line-height: 2; 
 }
 
@@ -1469,7 +1469,7 @@ hr.line {
 .middleearth-header,
 .nonfiction-header,
 .youngreaders-header {
-    height: 8vh;
+    height: 6vh;
     width: 100%;
     background-color: #556B2F;
     margin-top: 70px;
@@ -1490,7 +1490,7 @@ hr.line {
 
 .spotlight,
 .nonfiction {
-    height: 80vh;
+    height: 62vh;
     width: 100%;
     background-color: rgb(222, 240, 192);
     margin-top: 70px;
@@ -1499,7 +1499,7 @@ hr.line {
 
 .middle-earth,
 .young-readers {
-    height: 80vh;
+    height: 62vh;
     width: 100%;
     background-color: ivory;
     margin-top: 70px;
@@ -1508,11 +1508,11 @@ hr.line {
 
 .inspotlight-container, .middlebeyond-container,.notfiction-container, .young-container {
     display: inline-flex;
-    transform: translate(10%, 5%);
-    -webkit-transform: translate(10%, 5%);
-    -moz-transform: translate(10%, 5%);
-    -ms-transform: translate(10%, 5%);
-    -o-transform: translate(10%, 5%);
+    transform: translate(27%, 5%);
+    -webkit-transform: translate(27%, 5%);
+    -moz-transform: translate(27%, 5%);
+    -ms-transform: translate(27%, 5%);
+    -o-transform: translate(27%, 5%);
 }
 
 .inspotlight-container img, 
