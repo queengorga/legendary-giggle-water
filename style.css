@@ -387,7 +387,7 @@ form {
 /*New Section*/
 
 .new {
-    height: 35vh;
+    height: 37vh;
     width: 100%;
     background-color: ivory;
     margin-top: 8rem;
@@ -858,11 +858,11 @@ form {
     font-size: 1.25rem;
     background-color: #556B2F;
     color: ivory;
-    transform: translate(300%,10%);
-    -webkit-transform: translate(300%,10%);
-    -moz-transform: translate(300%,10%);
-    -ms-transform: translate(300%,10%);
-    -o-transform: translate(300%,10%);
+    transform: translate(310%,10%);
+    -webkit-transform: translate(310%,10%);
+    -moz-transform: translate(310%,10%);
+    -ms-transform: translate(310%,10%);
+    -o-transform: translate(310%,10%);
 }
 
 .about-container button:hover {
@@ -1177,11 +1177,11 @@ hr.line {
     text-align: center;
     margin: 20px;
     background-color: ivory;
-    transform: translate(81%, 20%);
-    -webkit-transform: translate(81%, 20%);
-    -moz-transform: translate(81%, 20%);
-    -ms-transform: translate(81%, 20%);
-    -o-transform: translate(81%, 20%);
+    transform: translate(92%, 20%);
+    -webkit-transform: translate(92%, 20%);
+    -moz-transform: translate(92%, 20%);
+    -ms-transform: translate(92%, 20%);
+    -o-transform: translate(92%, 20%);
 }
 
 .cards-box img {
@@ -2122,14 +2122,12 @@ hr.line {
 .community-list {
     background: ivory;
     margin-top: -10px;
-    margin-bottom: -70px;
-    height: 165vh;
+    height: 130vh;
     width: 100%;
 }
 
 .tilesWrap {
-    padding-top: 50px;
-    margin: 55px;
+    margin: 14em;
     list-style: none;
     text-align: center;
 }
